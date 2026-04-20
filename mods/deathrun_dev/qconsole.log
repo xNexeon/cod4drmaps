@@ -1,0 +1,2306 @@
+
+Logfile opened on Mon Apr 20 23:03:22 2026
+
+
+Loading fastfile 'localized_code_post_gfx_mp'
+sv_maxclients is write protected.
+used 0.69 MB memory in DB alloc
+sv_cheats is write protected.
+g_gametype will be changed upon restarting.
+execing deathrun.cfg
+Loaded fastfile 'localized_code_post_gfx_mp' in 12ms (1ms waiting)
+g_gametype will be changed upon restarting.
+Loading fastfile 'common_mp'
+couldn't exec deathrun_songs.cfg
+used 39.00 MB memory in DB alloc
+Loaded fastfile 'common_mp' in 109ms (2ms waiting)
+Loading fastfile 'mod'
+used 14.56 MB memory in DB alloc
+Loaded fastfile 'mod' in 53ms (1ms waiting)
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x1ec0613f
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+----------------------
+24678 files in iwd files
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 88 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 145ms (1ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+Resolving cod4master.activision.com 
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+cod4master.activision.com resolved to 185.34.107.159:20810
+Resolving cod2master.activision.com (IPv4)
+cod2master.activision.com resolved to 185.34.107.159:20810
+Resolving cod2master.activision.com (IPv6)
+cod2master.activision.com has no IPv6 address.
+Sending heartbeat to cod2master.activision.com
+Resolving cod2authorize.activision.com (IPv4)
+cod2authorize.activision.com has no IPv4 address.
+Resolving cod2authorize.activision.com (IPv6)
+cod2authorize.activision.com has no IPv6 address.
+Couldn't resolve address: cod2authorize.activision.com
+^5Hitch warning: 1220 msec frame time
+Masterserver needs token to complete registration
+Resolving cod4master.activision.com
+cod4master.activision.com resolved to 185.34.107.159:20800
+Steam: Server connected successfully
+GameServer is not VAC Secure!
+GameServer SteamID: [A:1:888216603]
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for rK'Nex num 0 from: 84.203.156.209:28960<=>0.0.0.0:27255
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+^5Calling BeginAuthSession for 76561198105630139, 7940
+Steam has authorized user xNexeon
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x64389e2
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 92 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 146ms (2ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1104 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x17fd18f4
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 88 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 143ms (1ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1099 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Say xNexeon: adm_xp_self
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x44e9dfc
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 88 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 142ms (1ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1113 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x21c2245a
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 88 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 144ms (0ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1118 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x4ca10741
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 94 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 156ms (4ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1268 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1224)
+ self braxi\_rank::giveRankXP("", 1500);
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 589)
+    self thread [[self.pmenu["script"][submenu][selected+1]]]();
+                                               *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 551)
+ for(selected=0;!self meleebuttonpressed();wait .05)
+                                           *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 864)
+  self thread showUnlockMessage( nextUnlockMessageData );
+              *
+^1started from:
+(file 'braxi/_rank.gsc', line 850)
+ wait notifyData.duration*0.2;
+ *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 864)
+  self thread showUnlockMessage( nextUnlockMessageData );
+              *
+^1started from:
+(file 'braxi/_rank.gsc', line 850)
+ wait notifyData.duration*0.2;
+ *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1227)
+ self braxi\_rank::giveRankXP("", 1500);
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 589)
+    self thread [[self.pmenu["script"][submenu][selected+1]]]();
+                                               *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 551)
+ for(selected=0;!self meleebuttonpressed();wait .05)
+                                           *
+^1************************************
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x7103b86d
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 86 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 145ms (0ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1144 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1228)
+  self braxi\_rank::giveRankXP("", 1500);
+       *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 589)
+    self thread [[self.pmenu["script"][submenu][selected+1]]]();
+                                               *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 551)
+ for(selected=0;!self meleebuttonpressed();wait .05)
+                                           *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 864)
+  self thread showUnlockMessage( nextUnlockMessageData );
+              *
+^1started from:
+(file 'braxi/_rank.gsc', line 850)
+ wait notifyData.duration*0.2;
+ *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 864)
+  self thread showUnlockMessage( nextUnlockMessageData );
+              *
+^1started from:
+(file 'braxi/_rank.gsc', line 850)
+ wait notifyData.duration*0.2;
+ *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 864)
+  self thread showUnlockMessage( nextUnlockMessageData );
+              *
+^1started from:
+(file 'braxi/_rank.gsc', line 850)
+ wait notifyData.duration*0.2;
+ *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 864)
+  self thread showUnlockMessage( nextUnlockMessageData );
+              *
+^1started from:
+(file 'braxi/_rank.gsc', line 850)
+ wait notifyData.duration*0.2;
+ *
+^1************************************
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x834ed1
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 87 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 143ms (0ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1098 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1228)
+  self braxi\_rank::giveRankXP("", 1500);
+       *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 589)
+    self thread [[self.pmenu["script"][submenu][selected+1]]]();
+                                               *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 551)
+ for(selected=0;!self meleebuttonpressed();wait .05)
+                                           *
+^1************************************
+Client: 0 lost reliable commands
+Player xNexeon^7, 0 dropped: EXE_SERVERCOMMANDOVERFLOW
+^5Calling EndAuthSession() for 76561198105630139
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Going from CS_ZOMBIE to CS_FREE for client 0
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+reconnected: 84.203.156.209:28960
+Going from CS_FREE to CS_CONNECTED for rK'Nex num 0 from: 84.203.156.209:28960<=>0.0.0.0:27255
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+^5Calling BeginAuthSession for 76561198105630139, 7940
+Steam has authorized user xNexeon
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x2e2ebdfb
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 91 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 147ms (1ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1137 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1228)
+  self braxi\_rank::giveRankXP("", 1500);
+       *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 589)
+    self thread [[self.pmenu["script"][submenu][selected+1]]]();
+                                               *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 551)
+ for(selected=0;!self meleebuttonpressed();wait .05)
+                                           *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 864)
+  self thread showUnlockMessage( nextUnlockMessageData );
+              *
+^1started from:
+(file 'braxi/_rank.gsc', line 850)
+ wait notifyData.duration*0.2;
+ *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 864)
+  self thread showUnlockMessage( nextUnlockMessageData );
+              *
+^1started from:
+(file 'braxi/_rank.gsc', line 850)
+ wait notifyData.duration*0.2;
+ *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 864)
+  self thread showUnlockMessage( nextUnlockMessageData );
+              *
+^1started from:
+(file 'braxi/_rank.gsc', line 850)
+ wait notifyData.duration*0.2;
+ *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 864)
+  self thread showUnlockMessage( nextUnlockMessageData );
+              *
+^1started from:
+(file 'braxi/_rank.gsc', line 850)
+ wait notifyData.duration*0.2;
+ *
+^1************************************
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x1ccb1967
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 86 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 141ms (0ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1087 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1228)
+  self braxi\_rank::giveRankXP("", 1500);
+       *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 589)
+    self thread [[self.pmenu["script"][submenu][selected+1]]]();
+                                               *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 551)
+ for(selected=0;!self meleebuttonpressed();wait .05)
+                                           *
+^1************************************
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x443d41af
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 89 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 146ms (3ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1129 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1228)
+  self braxi\_rank::giveRankXP("", 1500);
+       *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 589)
+    self thread [[self.pmenu["script"][submenu][selected+1]]]();
+                                               *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 551)
+ for(selected=0;!self meleebuttonpressed();wait .05)
+                                           *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1228)
+  self braxi\_rank::giveRankXP("", 1500);
+       *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 1229)
+  wait 0.5;
+  *
+^1************************************
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_dr_mew
+SV_SpawnServer checksum feed: 0x7e34bc9d
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24678 files in iwd files
+Unloading assets from fastfile 'mp_dr_mew' and creating default assets stubs
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Adding fastfile 'mp_dr_mew' to queue
+Loading fastfile 'mp_dr_mew'
+used 15.80 MB memory in DB alloc
+Waited 87 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_dr_mew' in 143ms (2ms waiting)
+-----------------------------------
+^1Error: Could not load xmodel "playermodel_terminator".
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.iwd is 90793059 Len 48499181
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 1b9fc5db Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is b38bac38 Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is d33bfbea Len 10153320
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew.ff is 13945942 Len 26620341
+^4CRC32 for usermaps/mp_dr_mew/mp_dr_mew_load.ff is 376535a1 Len 340
+^5Hitch warning: 1092 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1228)
+  self braxi\_rank::giveRankXP("", 1500);
+       *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 1229)
+  wait 0.5;
+  *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1228)
+  self braxi\_rank::giveRankXP("", 1500);
+       *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 1229)
+  wait 0.5;
+  *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1228)
+  self braxi\_rank::giveRankXP("", 1500);
+       *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 1229)
+  wait 0.5;
+  *
+^1************************************
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 1228)
+  self braxi\_rank::giveRankXP("", 1500);
+       *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 1229)
+  wait 0.5;
+  *
+^1************************************
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+throwing script exception: pair 'undefined' and 'owner' has unmatching types 'undefined' and 'string'
+
+^1******* script runtime error *******
+pair 'undefined' and 'owner' has unmatching types 'undefined' and 'string': (file 'plugins/dr_essentials.gsc', line 178)
+ if(role == "owner")   return "^1[Owner]";
+         *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 258)
+  player iPrintln("Press ^3"+level.menubutton+"^7 to open "+getRoleLabel(player.ess_role)+" Menu");
+                                                            *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 257)
+  level waittill("player_spawn",player);
+        *
+^1************************************
+throwing script exception: cannot cast undefined to bool
+
+^1******* script runtime error *******
+cannot cast undefined to bool: (file 'plugins/dr_essentials.gsc', line 178)
+ if(role == "owner")   return "^1[Owner]";
+         *
+^1called from:
+(file 'plugins/dr_essentials.gsc', line 258)
+  player iPrintln("Press ^3"+level.menubutton+"^7 to open "+getRoleLabel(player.ess_role)+" Menu");
+                                                            *
+^1started from:
+(file 'plugins/dr_essentials.gsc', line 257)
+  level waittill("player_spawn",player);
+        *
+^1************************************
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Player xNexeon^7, 0 dropped: EXE_DISCONNECTED
+^5Calling EndAuthSession() for 76561198105630139
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Going from CS_ZOMBIE to CS_FREE for client 0
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+quitting...
+All plugins have terminated
+----- Server Shutdown -----
+
+With the reason: EXE_SERVERQUIT
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (1) ====
+---------------------------
+Unloading assets from fastfile 'mp_dr_mew' and deleting all assets
+Unloading assets from fastfile 'mod' and deleting all assets
+Unloading assets from fastfile 'common_mp' and deleting all assets
+Unloading assets from fastfile 'localized_code_post_gfx_mp' and deleting all assets
+Unloading assets from fastfile 'code_post_gfx_mp' and deleting all assets
+Unloaded fastfile 'mp_dr_mew'
+PMem_Free( mp_dr_mew, Low )
+PMem_Free( mp_dr_mew, High )
+Unloaded fastfile 'mod'
+PMem_Free( mod, Low )
+PMem_Free( mod, High )
+Unloaded fastfile 'common_mp'
+PMem_Free( common_mp, Low )
+PMem_Free( common_mp, High )
+Unloaded fastfile 'localized_code_post_gfx_mp'
+PMem_Free( localized_code_post_gfx_mp, Low )
+PMem_Free( localized_code_post_gfx_mp, High )
+Unloaded fastfile 'code_post_gfx_mp'
+PMem_Free( code_post_gfx_mp, Low )
+PMem_Free( code_post_gfx_mp, High )
