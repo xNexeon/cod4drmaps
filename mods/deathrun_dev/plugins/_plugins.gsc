@@ -53,7 +53,7 @@ main()
 //	LoadPlugin( plugins\_efr::init, "Unlimit Free Run Rounds", "Rycoon" );
 	LoadPlugin( plugins\qubefix::init, "Qube Fix", "Darmuh" );
 	LoadPlugin( plugins\dr_essentials::init, "Deathrun Essentials", "GCZ|Slaya" );
-//	LoadPlugin( plugins\_vipmenu::init, "ViP Menu by Dazz", "Dazz" );
+	//LoadPlugin( plugins\_freeplay::init, "Free Play", "Crazy" );
 	
 
 	// Map specific plugins, hacks here

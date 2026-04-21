@@ -76,11 +76,13 @@ EssentialsMenu_init()
 
 	// OWNERS
 	level.role_owners    = [];
+	// NEX
 	level.role_owners[0] = "84832824";	
 	// level.role_owners[1] = "OWNER002";	
 
 	// CO-OWNERS
 	level.role_coowners    = [];
+	// ROSS
 	level.role_coowners[0] = "79750408";
 
 	// ADMINS
@@ -255,7 +257,13 @@ ess_onPlaySpawned()
 	for(;;)
 	{
 		level waittill("player_spawn",player);
+		
+		// Add this line to ensure role is defined if the connect logic was too slow
+		if(!isDefined(player.ess_role)) 
+			player.ess_role = getPlayerRole(player);
+
 		player iPrintln("Press ^3"+level.menubutton+"^7 to open "+getRoleLabel(player.ess_role)+" Menu");
+		
 		if( level.dvar["essentials_menu_points_enabled"] == 1 )
 			player thread ess_points();
 	}
@@ -583,7 +591,6 @@ EssentialsMenu()
 		{
 			if(!isString(self.pmenu["script"][submenu][selected+1]))
 			{
-				// If we're in the player list submenu, record which player slot was picked
 				if(submenu == "adm_players" && isDefined(self.adm_targets) && selected < self.adm_targets.size)
 					self.adm_selected_target = self.adm_targets[selected];
 				self thread [[self.pmenu["script"][submenu][selected+1]]]();
@@ -592,6 +599,15 @@ EssentialsMenu()
 			}
 			else
 			{
+				// --- FIX START ---
+				// Destroy existing submenu HUDs (6-9) before creating new ones
+				for(i=6; i<=9; i++)
+				{
+					if(isDefined(self.essentials_menu[i]))
+						self.essentials_menu[i] destroy();
+				}
+				// --- FIX END ---
+
 				abstand = (16.8 * selected);
 				submenu = self.pmenu["script"][submenu][selected+1];
 				self.essentials_menu[6] = addTextHud( self, -430, abstand + 50, .5, "left", "top", "right", 0, 101 );

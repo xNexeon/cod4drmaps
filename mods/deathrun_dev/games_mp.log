@@ -593,3 +593,283 @@
  26:31 ------------------------------------------------------------
  26:31 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Mon Apr 20 23:19:23 2026\uptime\26 minutes\mapname\mp_dr_mew\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
  53:54 Q;2310346617084832824;0;xNexeon
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:21:50 2026\mapname\mp_dr_mew\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  1:02 J;2310346617084832824;0;xNexeon
+  3:11 Q;2310346617084832824;0;xNexeon
+  3:17 J;2310346617084832824;0;xNexeon
+  4:17 ------------------------------------------------------------
+  4:17 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:21:50 2026\uptime\4 minutes\mapname\mp_dr_mew\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  4:48 MAP_STATS: set dr_info_mp_dr_mew ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+  4:48 ===== BEGIN SCORES =====
+  4:48 set dr_info_ mp_dr_mew ""
+  4:48 ===== END SCORES =====
+  5:32 ExitLevel: executed
+  5:32 ------------------------------------------------------------
+  5:32 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:27:17 2026\uptime\5 minutes\mapname\mp_dr_mew\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  5:32 COPY TO CFG: set dr_info_mp_dr_mew ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+  5:40 J;2310346617084832824;0;xNexeon
+  9:08 ------------------------------------------------------------
+  9:08 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:30:53 2026\uptime\9 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:32:22 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:46 Q;2310346617084832824;0;xNexeon
+  1:17 J;2310346617084832824;0;xNexeon
+  3:40 Q;2310346617084832824;0;xNexeon
+  3:47 J;2310346617084832824;0;xNexeon
+  5:51 ------------------------------------------------------------
+  5:51 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:32:22 2026\uptime\5 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  6:17 say;2310346617084832824;0;xNexeon;^3xNexeon: ^7It's not free run!
+ 10:09 ------------------------------------------------------------
+ 10:09 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:42:26 2026\uptime\10 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:44:35 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:45:18 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:18 J;2310346617084832824;0;xNexeon
+  1:22 Q;2310346617084832824;0;xNexeon
+  1:29 J;2310346617084832824;0;xNexeon
+  1:49 ------------------------------------------------------------
+  1:49 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:47:02 2026\uptime\1 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  1:57 J;2310346617084832824;0;xNexeon
+  4:55 ------------------------------------------------------------
+  4:55 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:50:08 2026\uptime\5 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  5:04 J;2310346617084832824;0;xNexeon
+  7:00 ------------------------------------------------------------
+  7:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:52:27 2026\uptime\7 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:53:12 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:42 J;2310346617084832824;0;xNexeon
+  6:25 ------------------------------------------------------------
+  6:25 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 00:59:32 2026\uptime\6 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  6:33 J;2310346617084832824;0;xNexeon
+  7:07 MAP_STATS: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+  7:07 ===== BEGIN SCORES =====
+  7:07 set dr_info_ mp_deathrun_skypillar ""
+  7:07 set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+  7:07 ===== END SCORES =====
+  7:51 ExitLevel: executed
+  7:51 ------------------------------------------------------------
+  7:51 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:00:58 2026\uptime\7 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  7:51 COPY TO CFG: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+  8:00 J;2310346617084832824;0;xNexeon
+ 10:22 say;2310346617084832824;0;xNexeon;!votemap
+ 10:27 say;2310346617084832824;0;xNexeon;!votemap darmuhv2
+ 10:31 say;2310346617084832824;0;xNexeon;!cmdlist
+ 11:03 ------------------------------------------------------------
+ 11:03 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:04:10 2026\uptime\11 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 11:03 COPY TO CFG: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 11:12 J;2310346617084832824;0;xNexeon
+ 11:38 MAP_STATS: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 11:38 ===== BEGIN SCORES =====
+ 11:38 set dr_info_ mp_deathrun_skypillar ""
+ 11:38 set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 11:38 ===== END SCORES =====
+ 12:02 ------------------------------------------------------------
+ 12:02 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:05:09 2026\uptime\12 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 12:02 COPY TO CFG: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 12:11 J;2310346617084832824;0;xNexeon
+ 12:37 MAP_STATS: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 12:37 ===== BEGIN SCORES =====
+ 12:37 set dr_info_ mp_deathrun_skypillar ""
+ 12:37 set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 12:37 ===== END SCORES =====
+ 12:59 ------------------------------------------------------------
+ 12:59 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:06:05 2026\uptime\13 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 12:59 COPY TO CFG: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 13:07 J;2310346617084832824;0;xNexeon
+ 14:48 ------------------------------------------------------------
+ 14:48 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:07:54 2026\uptime\14 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 14:48 COPY TO CFG: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 14:57 J;2310346617084832824;0;xNexeon
+ 15:25 MAP_STATS: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 15:25 ===== BEGIN SCORES =====
+ 15:25 set dr_info_ mp_deathrun_skypillar ""
+ 15:25 set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 15:25 ===== END SCORES =====
+ 15:40 ------------------------------------------------------------
+ 15:40 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:08:46 2026\uptime\15 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 15:40 COPY TO CFG: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 15:49 J;2310346617084832824;0;xNexeon
+ 16:56 ------------------------------------------------------------
+ 16:56 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:10:01 2026\uptime\16 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 16:56 COPY TO CFG: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 17:05 J;2310346617084832824;0;xNexeon
+ 17:33 MAP_STATS: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 17:33 ===== BEGIN SCORES =====
+ 17:33 set dr_info_ mp_deathrun_skypillar ""
+ 17:33 set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 17:33 ===== END SCORES =====
+ 17:57 say;2310346617084832824;0;xNexeon;!nextmap
+ 18:17 ExitLevel: executed
+ 18:17 ------------------------------------------------------------
+ 18:17 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:11:23 2026\uptime\18 minutes\mapname\mp_dr_mew\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 18:26 J;2310346617084832824;0;xNexeon
+ 20:23 ------------------------------------------------------------
+ 20:23 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:13:28 2026\uptime\20 minutes\mapname\mp_dr_mew\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 20:30 J;2310346617084832824;0;xNexeon
+ 20:50 say;2310346617084832824;0;xNexeon;g_sp
+ 23:03 ------------------------------------------------------------
+ 23:03 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:16:07 2026\uptime\23 minutes\mapname\mp_dr_mew\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 23:10 J;2310346617084832824;0;xNexeon
+ 26:02 MAP_STATS: set dr_info_mp_dr_mew ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 26:02 ===== BEGIN SCORES =====
+ 26:02 set dr_info_ mp_deathrun_skypillar ""
+ 26:02 set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 26:02 set dr_info_mp_dr_mew ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 26:02 ===== END SCORES =====
+ 26:46 ExitLevel: executed
+ 26:46 ------------------------------------------------------------
+ 26:46 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:19:51 2026\uptime\26 minutes\mapname\mp_dr_lithium\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:21:10 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:13 J;2310346617084832824;0;xNexeon
+  0:45 MAP_STATS: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+  0:45 ===== BEGIN SCORES =====
+  0:45 set dr_info_ mp_deathrun_skypillar ""
+  0:45 ===== END SCORES =====
+  1:29 ExitLevel: executed
+  1:29 ------------------------------------------------------------
+  1:29 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:22:34 2026\uptime\1 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  1:56 J;2310346617084832824;0;xNexeon
+  4:12 ------------------------------------------------------------
+  4:12 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:25:18 2026\uptime\4 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  4:21 J;2310346617084832824;0;xNexeon
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:28:26 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:35 J;2310346617084832824;0;xNexeon
+  0:56 ------------------------------------------------------------
+  0:56 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:29:18 2026\uptime\0 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  1:05 J;2310346617084832824;0;xNexeon
+  3:57 ------------------------------------------------------------
+  3:57 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:32:18 2026\uptime\4 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  4:05 J;2310346617084832824;0;xNexeon
+  7:44 ------------------------------------------------------------
+  7:44 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:36:05 2026\uptime\7 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  7:52 J;2310346617084832824;0;xNexeon
+  7:59 Weapon;2310346617084832824;0;xNexeon;rpg_mp
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:39:58 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:29 ------------------------------------------------------------
+  0:29 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:40:23 2026\uptime\0 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:42 J;2310346617084832824;0;xNexeon
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:45:31 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:25 ------------------------------------------------------------
+  0:25 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:45:51 2026\uptime\0 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:37 J;2310346617084832824;0;xNexeon
+  0:48 Weapon;2310346617084832824;0;xNexeon;rpg_mp
+  2:25 ------------------------------------------------------------
+  2:25 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:47:51 2026\uptime\2 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  2:34 J;2310346617084832824;0;xNexeon
+  5:29 ------------------------------------------------------------
+  5:29 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:50:55 2026\uptime\5 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  5:39 J;2310346617084832824;0;xNexeon
+  6:23 ------------------------------------------------------------
+  6:23 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:50:55 2026\uptime\6 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  8:37 ------------------------------------------------------------
+  8:37 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:54:02 2026\uptime\8 minutes\mapname\mp_deathrun_bricky\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:55:28 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:13 J;2310346617084832824;0;xNexeon
+  0:14 ------------------------------------------------------------
+  0:14 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:55:28 2026\uptime\0 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  1:35 ------------------------------------------------------------
+  1:35 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:55:28 2026\uptime\1 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  2:04 MAP_STATS: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+  2:04 ===== BEGIN SCORES =====
+  2:04 set dr_info_ mp_deathrun_skypillar ""
+  2:04 set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+  2:04 ===== END SCORES =====
+  2:48 ExitLevel: executed
+  2:48 ------------------------------------------------------------
+  2:48 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:58:11 2026\uptime\2 minutes\mapname\mp_dr_guest_list\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  2:56 J;2310346617084832824;0;xNexeon
+  3:11 ------------------------------------------------------------
+  3:11 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 01:58:34 2026\uptime\3 minutes\mapname\mp_dr_guest_list\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  3:18 J;2310346617084832824;0;xNexeon
+  8:21 ------------------------------------------------------------
+  8:21 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:03:44 2026\uptime\8 minutes\mapname\mp_dr_guest_list\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:04:16 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:13 J;2310346617084832824;0;xNexeon
+  0:14 ------------------------------------------------------------
+  0:14 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:04:16 2026\uptime\0 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:14 J;2310346617084832824;0;xNexeon
+ 10:43 MAP_STATS: set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 10:43 ===== BEGIN SCORES =====
+ 10:43 set dr_info_ mp_deathrun_skypillar ""
+ 10:43 set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 10:43 ===== END SCORES =====
+ 11:27 ExitLevel: executed
+ 11:27 ------------------------------------------------------------
+ 11:27 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:15:38 2026\uptime\11 minutes\mapname\mp_dr_volpe3\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 11:35 J;2310346617084832824;0;xNexeon
+ 15:20 ------------------------------------------------------------
+ 15:20 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:19:31 2026\uptime\15 minutes\mapname\mp_dr_mew\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 15:28 J;2310346617084832824;0;xNexeon
+ 16:24 MAP_STATS: set dr_info_mp_dr_mew ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 16:24 ===== BEGIN SCORES =====
+ 16:24 set dr_info_ mp_deathrun_skypillar ""
+ 16:24 set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 16:24 set dr_info_mp_dr_volpe3 ""
+ 16:24 set dr_info_mp_dr_mew ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 16:24 ===== END SCORES =====
+ 17:08 ExitLevel: executed
+ 17:08 ------------------------------------------------------------
+ 17:08 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:21:19 2026\uptime\17 minutes\mapname\mp_deathrun_semtex\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 17:16 J;2310346617084832824;0;xNexeon
+ 18:04 ------------------------------------------------------------
+ 18:04 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:22:14 2026\uptime\18 minutes\mapname\mp_deathrun_semtex\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+ 18:12 J;2310346617084832824;0;xNexeon
+ 18:48 Q;2310346617084832824;0;xNexeon
+ 18:57 J;2310346617084832824;0;xNexeon
+ 19:26 MAP_STATS: set dr_info_mp_deathrun_semtex ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 19:26 ===== BEGIN SCORES =====
+ 19:26 set dr_info_ mp_deathrun_skypillar ""
+ 19:26 set dr_info_mp_deathrun_skypillar ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 19:26 set dr_info_mp_dr_volpe3 ""
+ 19:26 set dr_info_mp_dr_mew ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 19:26 set dr_info_mp_deathrun_semtex ";kills,0,123, ;deaths,0,123, ;headshots,0,123, ;score,0,123, ;knifes,0,123, ;time,0,123, "
+ 19:26 ===== END SCORES =====
+ 20:10 ExitLevel: executed
+ 20:10 ------------------------------------------------------------
+ 20:10 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:24:20 2026\uptime\20 minutes\mapname\mp_dr_anotherworld\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:25:05 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:27:20 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:28:28 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:29:07 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:20 J;2310346617084832824;0;xNexeon
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:29:07 2026\uptime\1 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  1:19 ------------------------------------------------------------
+  1:19 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:29:07 2026\uptime\1 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  1:19 J;2310346617084832824;0;xNexeon
+  1:45 ------------------------------------------------------------
+  1:45 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 02:29:07 2026\uptime\1 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  1:45 J;2310346617084832824;0;xNexeon
+  4:54 Q;2310346617084832824;0;xNexeon
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 12:49:34 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:28 J;2310346617084832824;0;xNexeon
+  1:10 Q;2310346615745153247;1;^0rK^7'^1TreeTaps
+  1:29 Q;2310346615745153247;1;^0rK^7'^1TreeTaps
+  2:06 Q;2310346615745153247;1;^0rK^7'^1TreeTaps
+  3:03 Q;2310346615745153247;1;^0rK^7'^1TreeTaps
+  5:01 Q;2310346615745153247;1;^0rK^7'^1TreeTaps
+  5:57 Q;2310346615745153247;1;^0rK^7'^1TreeTaps
+  6:42 ------------------------------------------------------------
+  6:42 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 12:56:11 2026\uptime\6 minutes\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  6:53 J;2310346617084832824;0;xNexeon
+ 11:00 Q;2310346615745153247;1;^0rK^7'^1TreeTaps
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 13:01:05 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:29 Q;2310346615745153247;0;^0rK^7'^1TreeTaps
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/deathrun_dev\g_gametype\deathrun\version\CoD4 X - win_mingw-x86 build 1153 May  1 2022\shortversion\-\build\1153\branch\master\revision\54db3b9c742a86eb594f47fd0caa98f7d8921aec\sv_maxclients\24\_CoD4 X Site\http://cod4x.ovh\protocol\21\sv_privateClients\0\sv_hostname\^3Nex ^4Death^5run\sv_minPing\0\sv_maxPing\500\sv_disableClientConsole\0\sv_voice\0\g_mapStartTime\Tue Apr 21 13:02:45 2026\mapname\mp_deathrun_skypillar\sv_maxRate\25000\sv_floodprotect\4\sv_pure\1\gamename\Call of Duty 4\g_compassShowEnemies\0\g_logTimeStampInSeconds\0
+  0:40 Q;2310346615745153247;0;^0rK^7'^1TreeTaps
+  1:48 Q;2310346615745153247;0;^0rK^7'^1TreeTaps

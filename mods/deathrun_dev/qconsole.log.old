@@ -1,26 +1,25 @@
 
-Logfile opened on Mon Apr 20 22:58:04 2026
+Logfile opened on Tue Apr 21 13:01:05 2026
 
 
-Loaded fastfile 'code_post_gfx_mp' in 12ms (0ms waiting)
 sv_maxclients is write protected.
-Loading fastfile 'localized_code_post_gfx_mp'
 sv_cheats is write protected.
+Loading fastfile 'localized_code_post_gfx_mp'
 used 0.69 MB memory in DB alloc
 g_gametype will be changed upon restarting.
 execing deathrun.cfg
 g_gametype will be changed upon restarting.
-Loaded fastfile 'localized_code_post_gfx_mp' in 11ms (0ms waiting)
+Loaded fastfile 'localized_code_post_gfx_mp' in 10ms (0ms waiting)
 couldn't exec deathrun_songs.cfg
 Loading fastfile 'common_mp'
 used 39.00 MB memory in DB alloc
-Loaded fastfile 'common_mp' in 112ms (1ms waiting)
+Loaded fastfile 'common_mp' in 109ms (0ms waiting)
 Loading fastfile 'mod'
 used 14.56 MB memory in DB alloc
-Loaded fastfile 'mod' in 54ms (0ms waiting)
+Loaded fastfile 'mod' in 53ms (0ms waiting)
 ------ Server Initialization ------
-Server: mp_dr_mew
-SV_SpawnServer checksum feed: 0x3abb5fce
+Server: mp_deathrun_skypillar
+SV_SpawnServer checksum feed: 0xe901b22
 c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
 c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
 c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
@@ -44,7 +43,7 @@ c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
 c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
 c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
 c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
-c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd: 74406595
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_skypillar\skypillar.iwd: 1119027499
 c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
 c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: 990547689
 c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
@@ -56,8 +55,8 @@ c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
 c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (27 files)
 c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
 c:/users/nex/desktop/ogdr/mods/deathrun_dev
-c:\users\nex\desktop\ogdr\usermaps\mp_dr_mew\mp_dr_mew.iwd (31 files)
-c:/users/nex/desktop/ogdr/usermaps/mp_dr_mew
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_skypillar\skypillar.iwd (7 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_skypillar
 c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
 c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
 c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
@@ -97,30 +96,32 @@ c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
 File Handles:
 handle 1: qconsole.log
 ----------------------
-24678 files in iwd files
-Adding fastfile 'mp_dr_mew' to queue
-Loading fastfile 'mp_dr_mew'
-used 15.80 MB memory in DB alloc
-Waited 89 msec for asset 'maps/mp/mp_dr_mew.d3dbsp' of type 'col_map_mp'.
+24654 files in iwd files
+Adding fastfile 'mp_deathrun_skypillar' to queue
+Loading fastfile 'mp_deathrun_skypillar'
+used 27.28 MB memory in DB alloc
+Waited 87 msec for asset 'maps/mp/mp_deathrun_skypillar.d3dbsp' of type 'col_map_mp'.
 ------- Game Initialization -------
 gamename: Call of Duty 4
 gamedate: Feb 12 2009
 fs_ignoreLocalized is cheat protected.
 fs_ignoreLocalized is cheat protected.
-Loaded fastfile 'mp_dr_mew' in 145ms (2ms waiting)
-^1Error: 
-^1Error: ******* script compile error *******
-^1Error: unknown function: (file 'plugins/dr_essentials.gsc', line 1392)
- executecommand("clientkick "+num);
- *
-************************************
------ Server Shutdown -----
-
-With the reason: Server fatal crashed: script compile error
-unknown function
- executecommand("clientkick "+num);
-(see console for details)
-
+Loaded fastfile 'mp_deathrun_skypillar' in 160ms (2ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_skypillar/skypillar.iwd is 47feb1f9 Len 6368405
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is 126b0c79 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is 5de4a49f Len 4178024
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is 35c68fd4 Len 10153312
+^4CRC32 for usermaps/mp_deathrun_skypillar/mp_deathrun_skypillar.ff is 81cb0e52 Len 27919643
+^4CRC32 for usermaps/mp_deathrun_skypillar/mp_deathrun_skypillar_load.ff is 1f7920e6 Len 401
 Resolving cod4master.activision.com 
 Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
 Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
@@ -135,12 +136,78 @@ cod2authorize.activision.com has no IPv4 address.
 Resolving cod2authorize.activision.com (IPv6)
 cod2authorize.activision.com has no IPv6 address.
 Couldn't resolve address: cod2authorize.activision.com
+^5Hitch warning: 1174 msec frame time
+Masterserver needs token to complete registration
+Resolving cod4master.activision.com
+cod4master.activision.com resolved to 185.34.107.159:20800
+Steam: Server connected successfully
+GameServer is not VAC Secure!
+GameServer SteamID: [A:1:142005275]
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for rK'TreeTaps num 0 from: 37.228.226.86:8822<=>0.0.0.0:27255
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+^5Calling BeginAuthSession for 76561198079750408, 7940
+Steam has authorized user ^0rK^7'^1TreeTaps
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Check for file mods/deathrun_dev/deathrun.iwd
+clientDownload: 0 : begining "mods/deathrun_dev/deathrun.iwd"
+Writing mods/deathrun_dev/deathrun.iwd len 16186271
+Redirecting client '^0rK^7'^1TreeTaps' to https://xnexeon.github.io/cod4drmaps//mods/deathrun_dev/deathrun.iwd
+Check for file 
+^3Warning: Client '^0rK^7'^1TreeTaps' reported that the http download of '' failed, falling back to a server download
+Check for file mods/deathrun_dev/deathrun.iwd
+clientDownload: 0 : begining "mods/deathrun_dev/deathrun.iwd"
+Writing mods/deathrun_dev/deathrun.iwd len 16186271
+Check for file mods/deathrun_dev/deathrun.iwd
+clientDownload: 0 : begining "mods/deathrun_dev/deathrun.iwd"
+Writing mods/deathrun_dev/deathrun.iwd len 16186271
+Redirecting client '^0rK^7'^1TreeTaps' to https://xnexeon.github.io/cod4drmaps//mods/deathrun_dev/deathrun.iwd
+Player ^0rK^7'^1TreeTaps^7, 0 dropped: EXE_DISCONNECTED
+^5Calling EndAuthSession() for 76561198079750408
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Going from CS_ZOMBIE to CS_FREE for client 0
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+quitting...
+All plugins have terminated
+----- Server Shutdown -----
+
+With the reason: EXE_SERVERQUIT
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
 Sending heartbeat to cod2master.activision.com
 ==== ShutdownGame (1) ====
 ---------------------------
----- Network shutdown ----
-Closing IPv4 UDP socket: 1052
-Closing IPv6 UDP socket: 1044
-Closing IPv4 TCP socket: 1056
-Closing IPv6 TCP socket: 1048
---------------------------
+Unloading assets from fastfile 'mp_deathrun_skypillar' and deleting all assets
+Unloading assets from fastfile 'mod' and deleting all assets
+Unloading assets from fastfile 'common_mp' and deleting all assets
+Unloading assets from fastfile 'localized_code_post_gfx_mp' and deleting all assets
+Unloading assets from fastfile 'code_post_gfx_mp' and deleting all assets
+Unloaded fastfile 'mp_deathrun_skypillar'
+PMem_Free( mp_deathrun_skypillar, Low )
+PMem_Free( mp_deathrun_skypillar, High )
+Unloaded fastfile 'mod'
+PMem_Free( mod, Low )
+PMem_Free( mod, High )
+Unloaded fastfile 'common_mp'
+PMem_Free( common_mp, Low )
+PMem_Free( common_mp, High )
+Unloaded fastfile 'localized_code_post_gfx_mp'
+PMem_Free( localized_code_post_gfx_mp, Low )
+PMem_Free( localized_code_post_gfx_mp, High )
+Unloaded fastfile 'code_post_gfx_mp'
+PMem_Free( code_post_gfx_mp, Low )
+PMem_Free( code_post_gfx_mp, High )

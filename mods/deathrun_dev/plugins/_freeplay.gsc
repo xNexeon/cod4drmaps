@@ -24,7 +24,7 @@
 }*/
 
 #include braxi\_dvar;
-init()
+init( modVersion )
 {
 	addDvar( "freeplay", "dr_freeplay", 0, 0, 2, "int" );
 	level.freeplay = GetDvarInt( "freeplay" );
@@ -111,7 +111,7 @@ Nodify()
 	for(;;)
 	{
 		wait RandomInt(60)+50;
-		self iPrintln("^1Your in Free Play Untill A player Joins");
+		self iPrintln("^1You're in Free Play until a player joins");
 		wait 3;
 		self iPrintln("^2Press "+level.freeplaykey +" to end the map and goto Voting");
 	}
