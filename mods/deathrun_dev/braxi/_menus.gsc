@@ -251,6 +251,27 @@ onMenuResponse()
 				else
 					self iPrintln( "^1Activator cannot suicide!" );
 				break;
+
+			// ---- Sound Effects ----
+			case "sound:airhorn":
+				self playSound( "wtf" );
+				self iPrintln( "^3[Sound] ^7WTF!" );
+				break;
+
+			case "sound:fail":
+				self playSound( "end_round_1" );
+				self iPrintln( "^3[Sound] ^7End Round!" );
+				break;
+
+			case "sound:victory":
+				self playSound( "stabme" );
+				self iPrintln( "^3[Sound] ^7Stab Me!" );
+				break;
+
+			case "sound:vineboom":
+				self playSound( "last_alive" );
+				self iPrintln( "^3[Sound] ^7Last Alive!" );
+				break;
 			}
 
 		}

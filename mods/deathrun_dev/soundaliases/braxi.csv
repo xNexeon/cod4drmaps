@@ -24,3 +24,4 @@ last_alive,,misc/last_alive.mp3,1,1,na,1,1,,,auto2d,streamed,,nonlooping,,all_mp
 first_blood,,misc/firstblood.mp3,1,1,na,1,1,,,auto2d,streamed,,nonlooping,,all_mp,,,,,,,nowetlevel fulldrylevel,,,,,,
 
 wtf,,misc/wtf.mp3,1.0,1.0,,,,1200,2000,auto,streamed,,nonlooping,,all_mp,,,,,,,,,,,,,
+stabme,,misc/stabme.wav,1.0,1.0,,,,400,800,auto,loaded,,nonlooping,,all_mp,,,,,,,,,,,,,

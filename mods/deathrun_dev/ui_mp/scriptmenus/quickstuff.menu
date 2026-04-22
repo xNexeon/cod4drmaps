@@ -13,19 +13,21 @@
 #define CHOICE_SIZE_X			186
 
 #undef CHOICE_POPUP_BACKCOLOR
-#define CHOICE_POPUP_BACKCOLOR  0.2 0.2 0.22 0.65
+#define CHOICE_POPUP_BACKCOLOR		0.2 0.2 0.22 0.65
 
 #define ORIGIN_QUICKSTUFFWINDOW		0 16
 
 {
 	menuDef
 	{
-		IMPROVED_POPUP_SETUP_ONOPEN( quickstuff, 6, 4, 292, ;, setDvar cl_bypassMouseInput "1";, 0 )
+		// Increased height from 292 to 340 to fit all 9 items without clipping off screen
+		IMPROVED_POPUP_SETUP_ONOPEN( quickstuff, 9, 4, 100, ;, setDvar cl_bypassMouseInput "1";, 0 )
 		onClose{ setDvar cl_bypassMouseInput "0" }
 		
 		CHOICE_POPMENU_TITLE( "Player Menu" )
 		
-		//free: 52,68,84,100
+		// ---- Existing options ----
+
 		itemDef
 		{
 			name			"window"
@@ -58,30 +60,96 @@
 		}
 		execKey "2" { scriptMenuResponse "suicide"; close quickstuff }
 
-/*		itemDef
+		// ---- Sound Effects section header ----
+
+		itemDef
 		{
 			name			"window"
 			visible			1
-			rect			16 52 0 0
+			rect			16 56 0 0
+			origin			ORIGIN_QUICKSTUFFWINDOW
+			forecolor		0.7 0.9 1 1
+			textfont		UI_FONT_NORMAL
+			textstyle		ITEM_TEXTSTYLE_SHADOWED
+			textscale		TEXTSIZE_SMALL
+			textaligny		8
+			text			"-- Sound Effects --"
+			decoration
+		}
+
+		itemDef
+		{
+			name			"window"
+			visible			1
+			rect			16 72 0 0
 			origin			ORIGIN_QUICKSTUFFWINDOW
 			forecolor		1 1 1 1
 			textfont		UI_FONT_NORMAL
 			textstyle		ITEM_TEXTSTYLE_SHADOWED
 			textscale		TEXTSIZE_SMALL
 			textaligny		8
-			text			"3. Admin Control Panel"
+			text			"3. Air Horn"
 			decoration
 		}
-		execKey "3" { scriptMenuResponse "acp"; close quickstuff }
-*/
+		execKey "3" { scriptMenuResponse "sound:airhorn"; close quickstuff }
 
 		itemDef
 		{
 			name			"window"
 			visible			1
-			rect			16 52 0 0
+			rect			16 88 0 0
 			origin			ORIGIN_QUICKSTUFFWINDOW
 			forecolor		1 1 1 1
+			textfont		UI_FONT_NORMAL
+			textstyle		ITEM_TEXTSTYLE_SHADOWED
+			textscale		TEXTSIZE_SMALL
+			textaligny		8
+			text			"4. Fail"
+			decoration
+		}
+		execKey "4" { scriptMenuResponse "sound:fail"; close quickstuff }
+
+		itemDef
+		{
+			name			"window"
+			visible			1
+			rect			16 104 0 0
+			origin			ORIGIN_QUICKSTUFFWINDOW
+			forecolor		1 1 1 1
+			textfont		UI_FONT_NORMAL
+			textstyle		ITEM_TEXTSTYLE_SHADOWED
+			textscale		TEXTSIZE_SMALL
+			textaligny		8
+			text			"5. Victory"
+			decoration
+		}
+		execKey "5" { scriptMenuResponse "sound:victory"; close quickstuff }
+
+		itemDef
+		{
+			name			"window"
+			visible			1
+			rect			16 120 0 0
+			origin			ORIGIN_QUICKSTUFFWINDOW
+			forecolor		1 1 1 1
+			textfont		UI_FONT_NORMAL
+			textstyle		ITEM_TEXTSTYLE_SHADOWED
+			textscale		TEXTSIZE_SMALL
+			textaligny		8
+			text			"6. Vine Boom"
+			decoration
+		}
+		execKey "6" { scriptMenuResponse "sound:vineboom"; close quickstuff }
+
+		// ---- Exit ----
+
+		itemDef
+		{
+			name			"window"
+			visible			1
+			rect			16 144 0 0
+			origin			ORIGIN_QUICKSTUFFWINDOW
+			forecolor		0.7 0.7 0.7 1
 			textfont		UI_FONT_NORMAL
 			textstyle		ITEM_TEXTSTYLE_SHADOWED
 			textscale		TEXTSIZE_SMALL

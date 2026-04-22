@@ -54,6 +54,7 @@ main()
 	LoadPlugin( plugins\qubefix::init, "Qube Fix", "Darmuh" );
 	LoadPlugin( plugins\dr_essentials::init, "Deathrun Essentials", "GCZ|Slaya" );
 	//LoadPlugin( plugins\_freeplay::init, "Free Play", "Crazy" );
+	LoadPlugin( plugins\_solorun::init, "Solo Run Bot Activator", "Nex" );
 	
 
 	// Map specific plugins, hacks here
