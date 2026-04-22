@@ -3,17 +3,28 @@
   plugins/_solorun.gsc  —  Solo Run Plugin for DeathRun 1.2
   Compatible with: BraXi's CoD4 DeathRun Mod v1.2 (DeathRunVersion >= 12)
 
-  Bot is ALWAYS the activator:
-  - On death, watchBotDeath() fires before the 0.2 s game loop can see
-    zero activators.  It cancels any pending respawn, resets
-    level.activatorKilled, forces the bot back onto axis, and respawns it
-    immediately so the round never ends due to "Activator died".
-  - interceptActivatorPick() listens for the level "activator" notify that
-    braxi fires when it picks a human as activator (round start / free-run).
-    If the bot is still active we silently undo that pick, switch the human
-    back to allies, and make the bot the activator instead.
-  - enforceActivator() is kept as a last-resort safety net that catches any
-    remaining case where the bot ends up on the wrong team after spawning.
+  Bot is ALWAYS the activator. Three-layer defence:
+
+  1. watchRoundStart()  [primary]
+     Listens for "round_started" on level and immediately forces the bot
+     onto axis.  gameLogic() waits 0.2 s before its first poll, so by the
+     time pickRandomActivator / NewPickingSystem could be called the bot is
+     already counted as an activator and the picking block is skipped.
+
+  2. interceptActivatorPick()  [secondary]
+     If a human gets picked anyway (race condition, freerun, etc.) this
+     undoes it.  Unlike the previous version this loop lives on the bot
+     entity (not level) so it survives across rounds automatically.
+
+  3. watchBotDeath()  [tertiary]
+     When the bot dies as activator, onPlayerKilled() sets
+     level.activatorKilled = true and switches it to allies.  We catch
+     "death" immediately, reset activatorKilled, and respawn the bot as
+     axis before the 0.2 s game-loop tick can call endRound().
+
+  4. enforceActivator()  [safety net]
+     Last-resort catch on "spawned_player" — corrects the team if anything
+     slipped through.
 =============================================================================
 */
 
@@ -96,7 +107,6 @@ spawnSoloBot()
 	bot.solorun_isBot = true;
 	level.solorun_bot = bot;
 
-	// Give playerConnect() time to finish initialising the bot's pers[] block.
 	wait 1;
 
 	if ( !isDefined( bot ) || !isPlayer( bot ) )
@@ -121,18 +131,16 @@ setupBotAsActivator()
 	self.pers["isBot"]  = true;
 	self.pers["weapon"] = "tomahawk_mp";
 
-	// setTeam() must receive "axis" - that is braxi's internal key for the
-	// activator team and the key used in level.spawn[].
 	self thread braxi\_teams::setTeam( "axis" );
-
 	self setClientDvar( "name", "^3[BOT] Activator" );
 
 	botSpawnIn( self );
 
 	self thread idleBot();
-	self thread watchBotDeath();            // primary death guard
-	self thread enforceActivator();         // safety net after unexpected respawn
-	level thread interceptActivatorPick();  // prevent human being picked instead
+	self thread watchRoundStart();       // layer 1: pre-empt picking at round start
+	self thread interceptActivatorPick(); // layer 2: undo if human picked anyway
+	self thread watchBotDeath();         // layer 3: keep bot as activator after death
+	self thread enforceActivator();      // layer 4: safety net
 }
 
 idleBot()
@@ -143,16 +151,80 @@ idleBot()
 }
 
 // ---------------------------------------------------------------------------
-// watchBotDeath - the core "always activator" guard
+// watchRoundStart  [layer 1]
 //
-// When the bot dies as activator, braxi's onPlayerKilled() does two things:
-//   1. Calls setTeam("allies") on the bot, switching it to jumper.
-//   2. Sets level.activatorKilled = true.
-// The round-state loop polls every 0.2 s and would call
-// endRound("Activator died", ...).
+// Fires on every "round_started" notify.  gameLogic() has a 0.2 s wait
+// before its first activator-count poll, so assigning the bot to axis here
+// means the game loop already sees level.activators >= 1 and never calls
+// pickRandomActivator() / NewPickingSystem() at all.
+// ---------------------------------------------------------------------------
+
+watchRoundStart()
+{
+	self endon( "disconnect" );
+
+	for ( ;; )
+	{
+		level waittill( "round_started" );
+
+		if ( !isDefined( self ) || !isPlayer( self ) )
+			return;
+
+		// Force bot onto axis immediately so the picking block is skipped.
+		forceBotToAxis();
+		botSpawnIn( self );
+	}
+}
+
+// ---------------------------------------------------------------------------
+// interceptActivatorPick  [layer 2]
 //
-// We catch "death" immediately, undo both side-effects, and respawn the bot
-// as axis before the game loop's next tick.
+// Listens for "activator" notify (fired by braxi after any pick).
+// If a human was picked, undo it and install the bot instead.
+// Lives on the bot entity so it persists across rounds automatically.
+// ---------------------------------------------------------------------------
+
+interceptActivatorPick()
+{
+	self endon( "disconnect" );
+
+	for ( ;; )
+	{
+		level waittill( "activator", guy );
+
+		if ( !isDefined( self ) || !isPlayer( self ) )
+			return;
+
+		// braxi picked the bot itself - all good.
+		if ( guy == self )
+			continue;
+
+		// A human was picked - undo it immediately.
+		// Switch the human back to allies.
+		guy.pers["team"] = "spectator";
+		guy thread braxi\_teams::setTeam( "allies" );
+
+		// Install bot as activator.
+		level.activ = self;
+		forceBotToAxis();
+		wait 0.05;
+
+		if ( isDefined( self ) && isPlayer( self ) )
+		{
+			botSpawnIn( self );
+			// Re-fire so other mod systems (rank XP, hud, etc.) update correctly.
+			level notify( "activator", self );
+		}
+	}
+}
+
+// ---------------------------------------------------------------------------
+// watchBotDeath  [layer 3]
+//
+// When bot dies: onPlayerKilled() sets level.activatorKilled = true and
+// switches the bot to allies.  The round-state loop would then call
+// endRound("Activator died") within 0.2 s.
+// We catch "death" first, undo both side-effects, and respawn as axis.
 // ---------------------------------------------------------------------------
 
 watchBotDeath()
@@ -166,35 +238,23 @@ watchBotDeath()
 		if ( !isDefined( self ) || !isPlayer( self ) )
 			return;
 
-		// Cancel any respawn thread braxi queued for us as a jumper.
+		// Cancel braxi's queued jumper-respawn thread.
 		self notify( "kill logic" );
 
-		// Undo activatorKilled so the round-state loop doesn't end the round.
+		// Undo activatorKilled so the round doesn't end.
 		level.activatorKilled = false;
 
-		// Reassert activator identity.
-		// setTeam() early-returns if pers["team"] already matches, so we must
-		// briefly set a different value to force the full body to run.
-		self.pers["team"] = "allies";
-		self thread braxi\_teams::setTeam( "axis" );
-		self.pers["team"] = "opfor";
-		self.pers["weapon"] = "tomahawk_mp";
+		forceBotToAxis();
 
-		// Let setTeam's suicide() clear the old body, then respawn.
 		wait 0.05;
 
-		if ( !isDefined( self ) || !isPlayer( self ) )
-			return;
-
-		botSpawnIn( self );
+		if ( isDefined( self ) && isPlayer( self ) )
+			botSpawnIn( self );
 	}
 }
 
 // ---------------------------------------------------------------------------
-// enforceActivator - safety net
-//
-// Catches any case where the bot ends up spawned on the wrong team after
-// a round restart or other unexpected path through the spawn logic.
+// enforceActivator  [layer 4 - safety net]
 // ---------------------------------------------------------------------------
 
 enforceActivator()
@@ -210,10 +270,7 @@ enforceActivator()
 
 		if ( !isDefined( self.pers["team"] ) || self.pers["team"] != "opfor" )
 		{
-			self.pers["team"] = "allies";
-			self thread braxi\_teams::setTeam( "axis" );
-			self.pers["team"] = "opfor";
-			self.pers["weapon"] = "tomahawk_mp";
+			forceBotToAxis();
 			wait 0.05;
 			if ( isDefined( self ) && isPlayer( self ) )
 				botSpawnIn( self );
@@ -222,53 +279,23 @@ enforceActivator()
 }
 
 // ---------------------------------------------------------------------------
-// interceptActivatorPick - prevent a human from being chosen as activator
+// forceBotToAxis
 //
-// braxi fires  level notify("activator", guy)  after picking someone.
-// If that someone isn't the bot, we undo it: switch the human back to allies
-// and make the bot the activator instead.
+// Centralised helper that reliably sets all team state to axis/opfor.
+// setTeam() has an early-return guard when pers["team"] already matches,
+// so we temporarily set "allies" to force its full body to execute.
 // ---------------------------------------------------------------------------
 
-interceptActivatorPick()
+forceBotToAxis()
 {
-	level endon( "endround" );
-	level endon( "endmap" );
-
-	for ( ;; )
-	{
-		level waittill( "activator", guy );
-
-		if ( !isDefined( level.solorun_bot ) || !isPlayer( level.solorun_bot ) )
-			continue;
-
-		bot = level.solorun_bot;
-
-		// braxi picked the bot itself - nothing to do.
-		if ( guy == bot )
-			continue;
-
-		// A human was picked - undo it.
-		guy.pers["team"] = "spectator";
-		guy thread braxi\_teams::setTeam( "allies" );
-
-		// Install the bot as the official activator.
-		level.activ = bot;
-		bot.pers["team"] = "allies";
-		bot thread braxi\_teams::setTeam( "axis" );
-		bot.pers["team"] = "opfor";
-
-		wait 0.05;
-
-		if ( isDefined( bot ) && isPlayer( bot ) )
-		{
-			botSpawnIn( bot );
-			level notify( "activator", bot );
-		}
-	}
+	self.pers["team"]   = "allies";   // trick setTeam's early-return guard
+	self thread braxi\_teams::setTeam( "axis" );
+	self.pers["team"]   = "opfor";    // restore logical opfor identity
+	self.pers["weapon"] = "tomahawk_mp";
 }
 
 // ---------------------------------------------------------------------------
-// botSpawnIn - spawns the bot at an activator (axis) spawn point
+// botSpawnIn
 // ---------------------------------------------------------------------------
 
 botSpawnIn( bot )
@@ -282,7 +309,7 @@ botSpawnIn( bot )
 	spawnPoint = level.spawn["axis"][ randomInt( level.spawn["axis"].size ) ];
 
 	bot.team             = "opfor";
-	bot.sessionteam      = "axis";   // "opfor" is not a valid CoD4 sessionteam
+	bot.sessionteam      = "axis";
 	bot.sessionstate     = "playing";
 	bot.spectatorclient  = -1;
 	bot.killcamentity    = -1;
@@ -291,7 +318,6 @@ botSpawnIn( bot )
 	bot.statusicon       = "";
 
 	bot braxi\_teams::setPlayerModel();
-
 	bot spawn( spawnPoint.origin, spawnPoint.angles );
 
 	bot giveWeapon( "tomahawk_mp" );

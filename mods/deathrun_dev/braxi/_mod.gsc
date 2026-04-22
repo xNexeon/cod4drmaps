@@ -562,7 +562,12 @@ spawnPlayer( origin, angles )
 	resettimeout();
 
 	self.team = self.pers["team"];
-	self.sessionteam = self.team;
+	// "opfor" is not a valid CoD4 sessionteam string — remap it to "axis"
+	// (the activator team).  All other values are passed through unchanged.
+	if( self.team == "opfor" )
+		self.sessionteam = "axis";
+	else
+		self.sessionteam = self.team;
 	self.sessionstate = "playing";
 	self.spectatorclient = -1;
 	self.killcamentity = -1;
@@ -576,7 +581,11 @@ spawnPlayer( origin, angles )
 		self spawn( origin,angles );
 	else
 	{
-		spawnPoint = level.spawn[self.pers["team"]][randomInt(level.spawn[self.pers["team"]].size)];
+		// "opfor" has no level.spawn[] entry — remap to "axis" for the lookup.
+		spawnTeam = self.pers["team"];
+		if( spawnTeam == "opfor" )
+			spawnTeam = "axis";
+		spawnPoint = level.spawn[spawnTeam][randomInt(level.spawn[spawnTeam].size)];
 		self spawn( spawnPoint.origin, spawnPoint.angles );
 	}
 
@@ -1266,7 +1275,7 @@ pickRandomActivator()
 
 	if( level.dvar["dont_make_peoples_angry"] == 1 && guy getEntityNumber() == getDvarInt( "last_picked_player" ) )
 	{	
-		if( isDefined( players[num-1] ) && isPlayer( players[num-1] ) )
+		if( num > 0 && isDefined( players[num-1] ) && isPlayer( players[num-1] ) )
 			guy = players[num-1];
 		else if( isDefined( players[num+1] ) && isPlayer( players[num+1] ) )
 			guy = players[num+1];

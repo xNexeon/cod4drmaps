@@ -1,26 +1,26 @@
 
-Logfile opened on Wed Apr 22 00:49:33 2026
+Logfile opened on Wed Apr 22 02:22:59 2026
 
 
-Loaded fastfile 'code_post_gfx_mp' in 41ms (0ms waiting)
+Loaded fastfile 'code_post_gfx_mp' in 13ms (1ms waiting)
 sv_maxclients is write protected.
 Loading fastfile 'localized_code_post_gfx_mp'
 sv_cheats is write protected.
 used 0.69 MB memory in DB alloc
 g_gametype will be changed upon restarting.
-Loaded fastfile 'localized_code_post_gfx_mp' in 36ms (1ms waiting)
 execing deathrun.cfg
-Loading fastfile 'common_mp'
 g_gametype will be changed upon restarting.
-used 39.00 MB memory in DB alloc
+Loaded fastfile 'localized_code_post_gfx_mp' in 16ms (1ms waiting)
 couldn't exec deathrun_songs.cfg
-Loaded fastfile 'common_mp' in 152ms (0ms waiting)
+Loading fastfile 'common_mp'
+used 39.00 MB memory in DB alloc
+Loaded fastfile 'common_mp' in 127ms (1ms waiting)
 Loading fastfile 'mod'
-used 14.58 MB memory in DB alloc
-Loaded fastfile 'mod' in 80ms (1ms waiting)
+used 14.57 MB memory in DB alloc
+Loaded fastfile 'mod' in 59ms (0ms waiting)
 ------ Server Initialization ------
 Server: mp_deathrun_skypillar
-SV_SpawnServer checksum feed: 0x410d2e36
+SV_SpawnServer checksum feed: 0x1c1d4e38
 c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
 c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
 c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
@@ -46,7 +46,7 @@ c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
 c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
 c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_skypillar\skypillar.iwd: 1119027499
 c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
-c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1458938725
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
 c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
 Current language: english
 Current fs_basepath: c:/users/nex/desktop/ogdr
@@ -101,31 +101,31 @@ handle 1: qconsole.log
 Adding fastfile 'mp_deathrun_skypillar' to queue
 Loading fastfile 'mp_deathrun_skypillar'
 used 27.28 MB memory in DB alloc
-Waited 102 msec for asset 'maps/mp/mp_deathrun_skypillar.d3dbsp' of type 'col_map_mp'.
+Waited 104 msec for asset 'maps/mp/mp_deathrun_skypillar.d3dbsp' of type 'col_map_mp'.
 ------- Game Initialization -------
 gamename: Call of Duty 4
 gamedate: Feb 12 2009
 fs_ignoreLocalized is cheat protected.
 fs_ignoreLocalized is cheat protected.
-Loaded fastfile 'mp_deathrun_skypillar' in 179ms (1ms waiting)
+Loaded fastfile 'mp_deathrun_skypillar' in 189ms (2ms waiting)
 -----------------------------------
 g_gametype will be changed upon restarting.
 By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
 -----------------------------------
 ^4Calculate referenced files checksums...
 ^4CRC32 for usermaps/mp_deathrun_skypillar/skypillar.iwd is 47feb1f9 Len 6368405
-^4CRC32 for mods/deathrun_dev/deathrun.iwd is 280f498e Len 16186271
-^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is da937c6b Len 4894488
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
 ^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
 ^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
 ^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
 ^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
-^4CRC32 for mods/deathrun_dev/mod.ff is ac04da5e Len 10874021
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
 ^4CRC32 for usermaps/mp_deathrun_skypillar/mp_deathrun_skypillar.ff is 81cb0e52 Len 27919643
 ^4CRC32 for usermaps/mp_deathrun_skypillar/mp_deathrun_skypillar_load.ff is 1f7920e6 Len 401
 Resolving cod4master.activision.com 
-Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
 Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
 cod4master.activision.com resolved to 185.34.107.159:20810
 Resolving cod2master.activision.com (IPv4)
 cod2master.activision.com resolved to 185.34.107.159:20810
@@ -137,18 +137,141 @@ cod2authorize.activision.com has no IPv4 address.
 Resolving cod2authorize.activision.com (IPv6)
 cod2authorize.activision.com has no IPv6 address.
 Couldn't resolve address: cod2authorize.activision.com
-^5Hitch warning: 1531 msec frame time
 Resolving cod4master.activision.com
 cod4master.activision.com resolved to 185.34.107.159:20800
+^5Hitch warning: 1468 msec frame time
+Going from CS_FREE to CS_CONNECTED for rK'Nex num 0 from: 84.203.156.209:28960<=>0.0.0.0:27255
+Sending heartbeat to cod2master.activision.com
 Masterserver needs token to complete registration
 Steam: Server connected successfully
 GameServer is not VAC Secure!
-GameServer SteamID: [A:1:3476293659]
-Going from CS_FREE to CS_CONNECTED for rK'Nex num 0 from: 84.203.156.209:28960<=>0.0.0.0:27255
+GameServer SteamID: [A:1:648169499]
+Received packet 0 of stats data
 Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
 Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
 Sending heartbeat to cod2master.activision.com
+^1Error: Can't find map mp_dr_bricky
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_deathrun_bricky
+SV_SpawnServer checksum feed: 0x6de7d6dd
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd: -1733500737
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (28 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd (8 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_bricky
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24656 files in iwd files
+Unloading assets from fastfile 'mp_deathrun_skypillar' and creating default assets stubs
+Unloaded fastfile 'mp_deathrun_skypillar'
+PMem_Free( mp_deathrun_skypillar, Low )
+PMem_Free( mp_deathrun_skypillar, High )
+Adding fastfile 'mp_deathrun_bricky' to queue
+Loading fastfile 'mp_deathrun_bricky'
+used 16.15 MB memory in DB alloc
+Waited 40 msec for asset 'maps/mp/mp_deathrun_bricky.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_deathrun_bricky' in 112ms (1ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.ff is 2ef6df27 Len 23394684
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky_load.ff is 7ff5576b Len 286
+^5Hitch warning: 1120 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
 Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
 Going from CS_FREE to CS_CONNECTED for bot1 num 1
 throwing script exception: 'opfor' is an illegal sessionteam string. Must be allies, axis, none, or spectator.
 
@@ -173,7 +296,232 @@ throwing script exception: 'opfor' is an illegal sessionteam string. Must be all
  wait 1;
  *
 ^1************************************
-Say rK'Nex: QUICKMESSAGE_FOLLOW_ME
+^5Hitch warning: 549 msec frame time
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+throwing script exception: array index -1 out of range
+
+^1******* script runtime error *******
+array index -1 out of range: (file 'braxi/_mod.gsc', line 1269)
+  if( isDefined( players[num-1] ) && isPlayer( players[num-1] ) )
+                            *
+^1called from:
+(file 'braxi/_mod.gsc', line 1214)
+     pickRandomActivator();
+     *
+^1started from:
+(file 'braxi/_mod.gsc', line 1174)
+  wait 0.2;
+  *
+^1************************************
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+throwing script exception: array index -1 out of range
+
+^1******* script runtime error *******
+array index -1 out of range: (file 'braxi/_mod.gsc', line 1269)
+  if( isDefined( players[num-1] ) && isPlayer( players[num-1] ) )
+                            *
+^1called from:
+(file 'braxi/_mod.gsc', line 1214)
+     pickRandomActivator();
+     *
+^1started from:
+(file 'braxi/_mod.gsc', line 1174)
+  wait 0.2;
+  *
+^1************************************
+Player bot1^7, 1 dropped: Unknown reason for dropping
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_deathrun_bricky
+SV_SpawnServer checksum feed: 0x6c59797d
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd: -1733500737
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (28 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd (8 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_bricky
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24656 files in iwd files
+Unloading assets from fastfile 'mp_deathrun_bricky' and creating default assets stubs
+Unloaded fastfile 'mp_deathrun_bricky'
+PMem_Free( mp_deathrun_bricky, Low )
+PMem_Free( mp_deathrun_bricky, High )
+Adding fastfile 'mp_deathrun_bricky' to queue
+Loading fastfile 'mp_deathrun_bricky'
+used 16.15 MB memory in DB alloc
+Waited 52 msec for asset 'maps/mp/mp_deathrun_bricky.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_deathrun_bricky' in 123ms (0ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.ff is 2ef6df27 Len 23394684
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky_load.ff is 7ff5576b Len 286
+^5Hitch warning: 1936 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for bot1 num 1
+throwing script exception: 'opfor' is an illegal sessionteam string. Must be allies, axis, none, or spectator.
+
+^1******* script runtime error *******
+'opfor' is an illegal sessionteam string. Must be allies, axis, none, or spectator.: (file 'plugins/_solorun.gsc', line 192)
+ bot.sessionteam    = "opfor";
+                    *
+^1called from:
+(file 'plugins/_solorun.gsc', line 139)
+ botSpawnIn( self );
+ *
+^1called from:
+(file 'plugins/_solorun.gsc', line 109)
+ bot thread setupBotAsActivator();
+            *
+^1called from:
+(file 'plugins/_solorun.gsc', line 49)
+   spawnSoloBot();
+   *
+^1started from:
+(file 'plugins/_solorun.gsc', line 99)
+ wait 1;
+ *
+^1************************************
 throwing script exception: 'opfor' is an illegal sessionteam string. Must be allies, axis, none, or spectator.
 
 ^1******* script runtime error *******
@@ -278,7 +626,7 @@ type undefined is not a vector: (file 'braxi/_mod.gsc', line 580)
   wait 0.1;
   *
 ^1************************************
-^5Hitch warning: 1214 msec frame time
+^5Hitch warning: 568 msec frame time
 throwing script exception: 'opfor' is an illegal sessionteam string. Must be allies, axis, none, or spectator.
 
 ^1******* script runtime error *******
@@ -383,7 +731,7 @@ type undefined is not a vector: (file 'braxi/_mod.gsc', line 580)
   wait 0.1;
   *
 ^1************************************
-^5Hitch warning: 610 msec frame time
+^5Hitch warning: 724 msec frame time
 throwing script exception: 'opfor' is an illegal sessionteam string. Must be allies, axis, none, or spectator.
 
 ^1******* script runtime error *******
@@ -488,7 +836,7 @@ type undefined is not a vector: (file 'braxi/_mod.gsc', line 580)
   wait 0.1;
   *
 ^1************************************
-^5Hitch warning: 617 msec frame time
+^5Hitch warning: 608 msec frame time
 throwing script exception: 'opfor' is an illegal sessionteam string. Must be allies, axis, none, or spectator.
 
 ^1******* script runtime error *******
@@ -593,7 +941,7 @@ type undefined is not a vector: (file 'braxi/_mod.gsc', line 580)
   wait 0.1;
   *
 ^1************************************
-^5Hitch warning: 2980 msec frame time
+^5Hitch warning: 611 msec frame time
 throwing script exception: 'opfor' is an illegal sessionteam string. Must be allies, axis, none, or spectator.
 
 ^1******* script runtime error *******
@@ -698,7 +1046,7 @@ type undefined is not a vector: (file 'braxi/_mod.gsc', line 580)
   wait 0.1;
   *
 ^1************************************
-^5Hitch warning: 698 msec frame time
+^5Hitch warning: 632 msec frame time
 throwing script exception: 'opfor' is an illegal sessionteam string. Must be allies, axis, none, or spectator.
 
 ^1******* script runtime error *******
@@ -803,7 +1151,13 @@ type undefined is not a vector: (file 'braxi/_mod.gsc', line 580)
   wait 0.1;
   *
 ^1************************************
-^5Hitch warning: 630 msec frame time
+^5Hitch warning: 663 msec frame time
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
 Sending heartbeat to cod2master.activision.com
 Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
 Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
@@ -811,6 +1165,769 @@ Masterserver needs token to complete registration
 Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
 Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
 Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+throwing script exception: array index -1 out of range
+
+^1******* script runtime error *******
+array index -1 out of range: (file 'braxi/_mod.gsc', line 1269)
+  if( isDefined( players[num-1] ) && isPlayer( players[num-1] ) )
+                            *
+^1called from:
+(file 'braxi/_mod.gsc', line 1214)
+     pickRandomActivator();
+     *
+^1started from:
+(file 'braxi/_mod.gsc', line 1174)
+  wait 0.2;
+  *
+^1************************************
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Player bot1^7, 1 dropped: Unknown reason for dropping
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_deathrun_bricky
+SV_SpawnServer checksum feed: 0x9bec014
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd: -1733500737
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (28 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd (8 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_bricky
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24656 files in iwd files
+Unloading assets from fastfile 'mp_deathrun_bricky' and creating default assets stubs
+Unloaded fastfile 'mp_deathrun_bricky'
+PMem_Free( mp_deathrun_bricky, Low )
+PMem_Free( mp_deathrun_bricky, High )
+Adding fastfile 'mp_deathrun_bricky' to queue
+Loading fastfile 'mp_deathrun_bricky'
+used 16.15 MB memory in DB alloc
+Waited 41 msec for asset 'maps/mp/mp_deathrun_bricky.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_deathrun_bricky' in 122ms (2ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.ff is 2ef6df27 Len 23394684
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky_load.ff is 7ff5576b Len 286
+^5Hitch warning: 1158 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for bot1 num 1
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+throwing script exception: array index -1 out of range
+
+^1******* script runtime error *******
+array index -1 out of range: (file 'braxi/_mod.gsc', line 1269)
+  if( isDefined( players[num-1] ) && isPlayer( players[num-1] ) )
+                            *
+^1called from:
+(file 'braxi/_mod.gsc', line 1214)
+     pickRandomActivator();
+     *
+^1started from:
+(file 'braxi/_mod.gsc', line 1174)
+  wait 0.2;
+  *
+^1************************************
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+execing deathrun.cfg
+g_gametype will be changed upon restarting.
+Going from CS_FREE to CS_CONNECTED for esra num 2 from: 102.38.29.193:28960<=>0.0.0.0:27255
+Received packet 0 of stats data
+Check for file usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd
+clientDownload: 2 : begining "usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd"
+Redirecting client 'esra' to https://xnexeon.github.io/cod4drmaps/usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd
+Player esra^7, 2 dropped: Client dropped to download files
+Going from CS_ZOMBIE to CS_FREE for client 2
+reconnected: 102.38.29.193:28960
+Going from CS_FREE to CS_CONNECTED for esra num 2 from: 102.38.29.193:28960<=>0.0.0.0:27255
+Received packet 0 of stats data
+Check for file mods/deathrun_dev/deathrun.iwd
+clientDownload: 2 : begining "mods/deathrun_dev/deathrun.iwd"
+Writing mods/deathrun_dev/deathrun.iwd len 16186271
+Redirecting client 'esra' to https://xnexeon.github.io/cod4drmaps/mods/deathrun_dev/deathrun.iwd
+Player esra^7, 2 dropped: Client dropped to download files
+Going from CS_ZOMBIE to CS_FREE for client 2
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+
+^1******* script runtime error *******
+cannot cast undefined to string: (file 'braxi/_rank.gsc', line 823)
+ self.unlockMessage[3] setText( notifyData.description );
+                                           *
+^1called from:
+(file 'braxi/_rank.gsc', line 787)
+  self thread showUnlockMessage( notifyData );
+              *
+^1called from:
+(file 'braxi/_rank.gsc', line 661)
+   self thread unlockMessage( notifyData );
+               *
+^1called from:
+(file 'braxi/_rank.gsc', line 593)
+ self thread unlockSpray();
+             *
+^1called from:
+(file 'braxi/_rank.gsc', line 528)
+  self updateRankAnnounceHUD();
+       *
+^1called from:
+(file 'braxi/_rank.gsc', line 515)
+ self updateRank( rankId );
+      *
+^1called from:
+(file 'braxi/_rank.gsc', line 397)
+ self incRankXP( value );
+      *
+^1called from:
+(file 'braxi/_mod.gsc', line 1004)
+   level.activ braxi\_rank::giveRankXp( "activator" );
+               *
+^1called from:
+<removed thread>
+^1started from:
+(file 'braxi/_mod.gsc', line 1174)
+  wait 0.2;
+  *
+^1************************************
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+execing server.cfg
+sv_maxclients is write protected.
+sv_cheats is write protected.
+g_gametype will be changed upon restarting.
+execing deathrun.cfg
+g_gametype will be changed upon restarting.
+couldn't exec deathrun_songs.cfg
+Player bot1^7, 1 dropped: Unknown reason for dropping
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_deathrun_bricky
+SV_SpawnServer checksum feed: 0x57f40407
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd: -1733500737
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (28 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd (8 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_bricky
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24656 files in iwd files
+Unloading assets from fastfile 'mp_deathrun_bricky' and creating default assets stubs
+Unloaded fastfile 'mp_deathrun_bricky'
+PMem_Free( mp_deathrun_bricky, Low )
+PMem_Free( mp_deathrun_bricky, High )
+Adding fastfile 'mp_deathrun_bricky' to queue
+Loading fastfile 'mp_deathrun_bricky'
+used 16.15 MB memory in DB alloc
+Waited 39 msec for asset 'maps/mp/mp_deathrun_bricky.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_deathrun_bricky' in 112ms (0ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.ff is 2ef6df27 Len 23394684
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky_load.ff is 7ff5576b Len 286
+^5Hitch warning: 1081 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Resolving cod2authorize.activision.com (IPv4)
+cod2authorize.activision.com has no IPv4 address.
+Resolving cod2authorize.activision.com (IPv6)
+cod2authorize.activision.com has no IPv6 address.
+Couldn't resolve address: cod2authorize.activision.com
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for bot1 num 1
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+throwing script exception: array index -1 out of range
+
+^1******* script runtime error *******
+array index -1 out of range: (file 'braxi/_mod.gsc', line 1269)
+  if( isDefined( players[num-1] ) && isPlayer( players[num-1] ) )
+                            *
+^1called from:
+(file 'braxi/_mod.gsc', line 1214)
+     pickRandomActivator();
+     *
+^1started from:
+(file 'braxi/_mod.gsc', line 1174)
+  wait 0.2;
+  *
+^1************************************
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+throwing script exception: array index -1 out of range
+
+^1******* script runtime error *******
+array index -1 out of range: (file 'braxi/_mod.gsc', line 1269)
+  if( isDefined( players[num-1] ) && isPlayer( players[num-1] ) )
+                            *
+^1called from:
+(file 'braxi/_mod.gsc', line 1214)
+     pickRandomActivator();
+     *
+^1started from:
+(file 'braxi/_mod.gsc', line 1174)
+  wait 0.2;
+  *
+^1************************************
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+Player bot1^7, 1 dropped: Unknown reason for dropping
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_deathrun_bricky
+SV_SpawnServer checksum feed: 0x38708d9d
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd: -1733500737
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (28 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd (8 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_bricky
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24656 files in iwd files
+Unloading assets from fastfile 'mp_deathrun_bricky' and creating default assets stubs
+Unloaded fastfile 'mp_deathrun_bricky'
+PMem_Free( mp_deathrun_bricky, Low )
+PMem_Free( mp_deathrun_bricky, High )
+Adding fastfile 'mp_deathrun_bricky' to queue
+Loading fastfile 'mp_deathrun_bricky'
+used 16.15 MB memory in DB alloc
+Waited 40 msec for asset 'maps/mp/mp_deathrun_bricky.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_deathrun_bricky' in 113ms (1ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.ff is 2ef6df27 Len 23394684
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky_load.ff is 7ff5576b Len 286
+^5Hitch warning: 1107 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for bot1 num 1
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+Player bot1^7, 1 dropped: Unknown reason for dropping
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_deathrun_bricky
+SV_SpawnServer checksum feed: 0x2bc08244
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd: -1733500737
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (28 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd (8 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_bricky
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24656 files in iwd files
+Unloading assets from fastfile 'mp_deathrun_bricky' and creating default assets stubs
+Unloaded fastfile 'mp_deathrun_bricky'
+PMem_Free( mp_deathrun_bricky, Low )
+PMem_Free( mp_deathrun_bricky, High )
+Adding fastfile 'mp_deathrun_bricky' to queue
+Loading fastfile 'mp_deathrun_bricky'
+used 16.15 MB memory in DB alloc
+Waited 40 msec for asset 'maps/mp/mp_deathrun_bricky.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_deathrun_bricky' in 114ms (0ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.ff is 2ef6df27 Len 23394684
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky_load.ff is 7ff5576b Len 286
+^5Hitch warning: 1109 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for bot1 num 1
 throwing script exception: 'opfor' is an illegal sessionteam string. Must be allies, axis, none, or spectator.
 
 ^1******* script runtime error *******
@@ -915,35 +2032,916 @@ type undefined is not a vector: (file 'braxi/_mod.gsc', line 580)
   wait 0.1;
   *
 ^1************************************
-^5Hitch warning: 2515 msec frame time
-Player rK'Nex^7, 0 dropped: EXE_DISCONNECTED
-Player bot1^7, 1 dropped: Player kicked by scriptadmin
+^5Hitch warning: 674 msec frame time
+Say rK'Nex: QUICKMESSAGE_FOLLOW_ME
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+throwing script exception: array index -1 out of range
 
+^1******* script runtime error *******
+array index -1 out of range: (file 'braxi/_mod.gsc', line 1269)
+  if( isDefined( players[num-1] ) && isPlayer( players[num-1] ) )
+                            *
+^1called from:
+(file 'braxi/_mod.gsc', line 1214)
+     pickRandomActivator();
+     *
+^1started from:
+(file 'braxi/_mod.gsc', line 1174)
+  wait 0.2;
+  *
+^1************************************
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+Player bot1^7, 1 dropped: Unknown reason for dropping
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_deathrun_bricky
+SV_SpawnServer checksum feed: 0x28064470
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd: -1733500737
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (28 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd (8 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_bricky
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24656 files in iwd files
+Unloading assets from fastfile 'mp_deathrun_bricky' and creating default assets stubs
+Unloaded fastfile 'mp_deathrun_bricky'
+PMem_Free( mp_deathrun_bricky, Low )
+PMem_Free( mp_deathrun_bricky, High )
+Adding fastfile 'mp_deathrun_bricky' to queue
+Loading fastfile 'mp_deathrun_bricky'
+used 16.15 MB memory in DB alloc
+Waited 40 msec for asset 'maps/mp/mp_deathrun_bricky.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_deathrun_bricky' in 112ms (2ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.ff is 2ef6df27 Len 23394684
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky_load.ff is 7ff5576b Len 286
+^5Hitch warning: 1095 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for bot1 num 1
+throwing script exception: size cannot be applied to undefined
+
+^1******* script runtime error *******
+size cannot be applied to undefined: (file 'braxi/_mod.gsc', line 584)
+  spawnPoint = level.spawn[self.pers["team"]][randomInt(level.spawn[self.pers["team"]].size)];
+                                                                   *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: type undefined is not an int
+
+^1******* script runtime error *******
+type undefined is not an int: (file 'braxi/_mod.gsc', line 584)
+  spawnPoint = level.spawn[self.pers["team"]][randomInt(level.spawn[self.pers["team"]].size)];
+                                                                                      *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: undefined is not an array, string, or vector
+
+^1******* script runtime error *******
+undefined is not an array, string, or vector: (file 'braxi/_mod.gsc', line 584)
+  spawnPoint = level.spawn[self.pers["team"]][randomInt(level.spawn[self.pers["team"]].size)];
+                          *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: undefined is not a field object
+
+^1******* script runtime error *******
+undefined is not a field object: (file 'braxi/_mod.gsc', line 585)
+  self spawn( spawnPoint.origin, spawnPoint.angles );
+                                 *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: undefined is not a field object
+
+^1******* script runtime error *******
+undefined is not a field object: (file 'braxi/_mod.gsc', line 585)
+  self spawn( spawnPoint.origin, spawnPoint.angles );
+              *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+
+^1******* script runtime error *******
+type undefined is not a vector: (file 'braxi/_mod.gsc', line 585)
+  self spawn( spawnPoint.origin, spawnPoint.angles );
+                         *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+^5Hitch warning: 649 msec frame time
+throwing script exception: size cannot be applied to undefined
+
+^1******* script runtime error *******
+size cannot be applied to undefined: (file 'braxi/_mod.gsc', line 584)
+  spawnPoint = level.spawn[self.pers["team"]][randomInt(level.spawn[self.pers["team"]].size)];
+                                                                   *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: type undefined is not an int
+
+^1******* script runtime error *******
+type undefined is not an int: (file 'braxi/_mod.gsc', line 584)
+  spawnPoint = level.spawn[self.pers["team"]][randomInt(level.spawn[self.pers["team"]].size)];
+                                                                                      *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: undefined is not an array, string, or vector
+
+^1******* script runtime error *******
+undefined is not an array, string, or vector: (file 'braxi/_mod.gsc', line 584)
+  spawnPoint = level.spawn[self.pers["team"]][randomInt(level.spawn[self.pers["team"]].size)];
+                          *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: undefined is not a field object
+
+^1******* script runtime error *******
+undefined is not a field object: (file 'braxi/_mod.gsc', line 585)
+  self spawn( spawnPoint.origin, spawnPoint.angles );
+                                 *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: undefined is not a field object
+
+^1******* script runtime error *******
+undefined is not a field object: (file 'braxi/_mod.gsc', line 585)
+  self spawn( spawnPoint.origin, spawnPoint.angles );
+              *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+
+^1******* script runtime error *******
+type undefined is not a vector: (file 'braxi/_mod.gsc', line 585)
+  self spawn( spawnPoint.origin, spawnPoint.angles );
+                         *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+^5Hitch warning: 569 msec frame time
+throwing script exception: size cannot be applied to undefined
+
+^1******* script runtime error *******
+size cannot be applied to undefined: (file 'braxi/_mod.gsc', line 584)
+  spawnPoint = level.spawn[self.pers["team"]][randomInt(level.spawn[self.pers["team"]].size)];
+                                                                   *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: type undefined is not an int
+
+^1******* script runtime error *******
+type undefined is not an int: (file 'braxi/_mod.gsc', line 584)
+  spawnPoint = level.spawn[self.pers["team"]][randomInt(level.spawn[self.pers["team"]].size)];
+                                                                                      *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: undefined is not an array, string, or vector
+
+^1******* script runtime error *******
+undefined is not an array, string, or vector: (file 'braxi/_mod.gsc', line 584)
+  spawnPoint = level.spawn[self.pers["team"]][randomInt(level.spawn[self.pers["team"]].size)];
+                          *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: undefined is not a field object
+
+^1******* script runtime error *******
+undefined is not a field object: (file 'braxi/_mod.gsc', line 585)
+  self spawn( spawnPoint.origin, spawnPoint.angles );
+                                 *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+throwing script exception: undefined is not a field object
+
+^1******* script runtime error *******
+undefined is not a field object: (file 'braxi/_mod.gsc', line 585)
+  self spawn( spawnPoint.origin, spawnPoint.angles );
+              *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+
+^1******* script runtime error *******
+type undefined is not a vector: (file 'braxi/_mod.gsc', line 585)
+  self spawn( spawnPoint.origin, spawnPoint.angles );
+                         *
+^1called from:
+(file 'braxi/_mod.gsc', line 1398)
+  self spawnPlayer();
+       *
+^1started from:
+(file 'braxi/_mod.gsc', line 1397)
+  wait 0.1;
+  *
+^1************************************
+^5Hitch warning: 592 msec frame time
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+Player bot1^7, 1 dropped: Unknown reason for dropping
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_deathrun_bricky
+SV_SpawnServer checksum feed: 0x46af838d
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd: -1733500737
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (28 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd (8 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_bricky
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24656 files in iwd files
+Unloading assets from fastfile 'mp_deathrun_bricky' and creating default assets stubs
+Unloaded fastfile 'mp_deathrun_bricky'
+PMem_Free( mp_deathrun_bricky, Low )
+PMem_Free( mp_deathrun_bricky, High )
+Adding fastfile 'mp_deathrun_bricky' to queue
+Loading fastfile 'mp_deathrun_bricky'
+used 16.15 MB memory in DB alloc
+Waited 41 msec for asset 'maps/mp/mp_deathrun_bricky.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_deathrun_bricky' in 115ms (1ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.ff is 2ef6df27 Len 23394684
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky_load.ff is 7ff5576b Len 286
+^5Hitch warning: 1120 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for bot1 num 1
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
 Sending heartbeat to cod2master.activision.com
 Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
 Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
 Masterserver needs token to complete registration
-Going from CS_ZOMBIE to CS_FREE for client 0
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+Player bot1^7, 1 dropped: Unknown reason for dropping
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_deathrun_bricky
+SV_SpawnServer checksum feed: 0x51ae843d
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd: -1733500737
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (28 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd (8 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_bricky
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24656 files in iwd files
+Unloading assets from fastfile 'mp_deathrun_bricky' and creating default assets stubs
+Unloaded fastfile 'mp_deathrun_bricky'
+PMem_Free( mp_deathrun_bricky, Low )
+PMem_Free( mp_deathrun_bricky, High )
+Adding fastfile 'mp_deathrun_bricky' to queue
+Loading fastfile 'mp_deathrun_bricky'
+used 16.15 MB memory in DB alloc
+Waited 40 msec for asset 'maps/mp/mp_deathrun_bricky.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_deathrun_bricky' in 115ms (0ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.ff is 2ef6df27 Len 23394684
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky_load.ff is 7ff5576b Len 286
+^5Hitch warning: 1095 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for bot1 num 1
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Player bot1^7, 1 dropped: Unknown reason for dropping
+==== ShutdownGame (1) ====
+------ Server Initialization ------
+Server: mp_deathrun_bricky
+SV_SpawnServer checksum feed: 0x7ca28cf1
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd: 1718774667
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd: -447146714
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd: 492300637
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd: -359731006
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd: -174036185
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd: -1248474720
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd: -865200138
+c:\users\nex\desktop\ogdr\main\iw_00.iwd: -1190209610
+c:\users\nex\desktop\ogdr\main\iw_01.iwd: 648005745
+c:\users\nex\desktop\ogdr\main\iw_02.iwd: -165391090
+c:\users\nex\desktop\ogdr\main\iw_03.iwd: 309900900
+c:\users\nex\desktop\ogdr\main\iw_04.iwd: 499941093
+c:\users\nex\desktop\ogdr\main\iw_05.iwd: 489843315
+c:\users\nex\desktop\ogdr\main\iw_06.iwd: -715502781
+c:\users\nex\desktop\ogdr\main\iw_07.iwd: -1041447890
+c:\users\nex\desktop\ogdr\main\iw_08.iwd: -1079795827
+c:\users\nex\desktop\ogdr\main\iw_09.iwd: -1846635013
+c:\users\nex\desktop\ogdr\main\iw_10.iwd: 173489706
+c:\users\nex\desktop\ogdr\main\iw_11.iwd: -292863836
+c:\users\nex\desktop\ogdr\main\iw_12.iwd: 1043426064
+c:\users\nex\desktop\ogdr\main\iw_13.iwd: 2115322797
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd: 94291723
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd: -978930286
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd: -1733500737
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd: 370635517
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd: -1980392804
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd: -1407421446
+Current language: english
+Current fs_basepath: c:/users/nex/desktop/ogdr
+Current fs_homepath: c:/users/nex/desktop/ogdr
+Current search path:
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\z_essentials.iwd (16 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun_sounds.iwd (28 files)
+c:\users\nex\desktop\ogdr\mods\deathrun_dev\deathrun.iwd (179 files)
+c:/users/nex/desktop/ogdr/mods/deathrun_dev
+c:\users\nex\desktop\ogdr\usermaps\mp_deathrun_bricky\mp_deathrun_bricky.iwd (8 files)
+c:/users/nex/desktop/ogdr/usermaps/mp_deathrun_bricky
+c:\users\nex\desktop\ogdr\main\xbase_00.iwd (115 files)
+c:\users\nex\desktop\ogdr\main\jcod4x_00.iwd (67 files)
+c:\users\nex\desktop\ogdr\main\iw_13.iwd (265 files)
+c:\users\nex\desktop\ogdr\main\iw_12.iwd (33 files)
+c:\users\nex\desktop\ogdr\main\iw_11.iwd (448 files)
+c:\users\nex\desktop\ogdr\main\iw_10.iwd (230 files)
+c:\users\nex\desktop\ogdr\main\iw_09.iwd (447 files)
+c:\users\nex\desktop\ogdr\main\iw_08.iwd (66 files)
+c:\users\nex\desktop\ogdr\main\iw_07.iwd (34 files)
+c:\users\nex\desktop\ogdr\main\iw_06.iwd (416 files)
+c:\users\nex\desktop\ogdr\main\iw_05.iwd (716 files)
+c:\users\nex\desktop\ogdr\main\iw_04.iwd (765 files)
+c:\users\nex\desktop\ogdr\main\iw_03.iwd (670 files)
+c:\users\nex\desktop\ogdr\main\iw_02.iwd (1296 files)
+c:\users\nex\desktop\ogdr\main\iw_01.iwd (1456 files)
+c:\users\nex\desktop\ogdr\main\iw_00.iwd (1054 files)
+c:/users/nex/desktop/ogdr/main
+c:/users/nex/desktop/ogdr/main_shared
+c:/users/nex/desktop/ogdr/players
+c:/users/nex/desktop/ogdr/mods/deathrun_dev/english
+    localized assets game folder for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+c:\users\nex\desktop\ogdr\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: qconsole.log
+handle 3: enterleave.log
+----------------------
+24656 files in iwd files
+Unloading assets from fastfile 'mp_deathrun_bricky' and creating default assets stubs
+Unloaded fastfile 'mp_deathrun_bricky'
+PMem_Free( mp_deathrun_bricky, Low )
+PMem_Free( mp_deathrun_bricky, High )
+Adding fastfile 'mp_deathrun_bricky' to queue
+Loading fastfile 'mp_deathrun_bricky'
+used 16.15 MB memory in DB alloc
+Waited 41 msec for asset 'maps/mp/mp_deathrun_bricky.d3dbsp' of type 'col_map_mp'.
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+fs_ignoreLocalized is cheat protected.
+fs_ignoreLocalized is cheat protected.
+Loaded fastfile 'mp_deathrun_bricky' in 114ms (0ms waiting)
+-----------------------------------
+g_gametype will be changed upon restarting.
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for mods/deathrun_dev/deathrun.iwd is fca0fd09 Len 16186271
+^4CRC32 for mods/deathrun_dev/deathrun_sounds.iwd is fdcad4d Len 12089538
+^4CRC32 for mods/deathrun_dev/z_essentials.iwd is 69eaa668 Len 2176570
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.iwd is 59e20c35 Len 5003649
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for mods/deathrun_dev/mod.ff is c436bad7 Len 10874186
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky.ff is 2ef6df27 Len 23394684
+^4CRC32 for usermaps/mp_deathrun_bricky/mp_deathrun_bricky_load.ff is 7ff5576b Len 286
+^5Hitch warning: 1122 msec frame time
+Sending heartbeat to cod2master.activision.com
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
+Sending heartbeat to cod2master.activision.com
+Going from CS_FREE to CS_CONNECTED for bot1 num 1
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Feb 12 2009
+-----------------------------------
+g_gametype will be changed upon restarting.
 quitting...
 All plugins have terminated
 ----- Server Shutdown -----
 
 With the reason: EXE_SERVERQUIT
-Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Sending heartbeat to cod2master.activision.com
 Sending master heartbeat from 0.0.0.0:27255 to 188.165.57.239:20810
-Sending heartbeat to cod2master.activision.com
-Sending heartbeat to cod2master.activision.com
 Sending master heartbeat from 0.0.0.0:27255 to 84.21.7.14:20810
+Sending heartbeat to cod2master.activision.com
 ==== ShutdownGame (1) ====
+Player rK'Nex^7, 0 dropped: EXE_DISCONNECTED
+Player bot1^7, 1 dropped: EXE_DISCONNECTED
 ---------------------------
-Unloading assets from fastfile 'mp_deathrun_skypillar' and deleting all assets
+Unloading assets from fastfile 'mp_deathrun_bricky' and deleting all assets
 Unloading assets from fastfile 'mod' and deleting all assets
 Unloading assets from fastfile 'common_mp' and deleting all assets
 Unloading assets from fastfile 'localized_code_post_gfx_mp' and deleting all assets
 Unloading assets from fastfile 'code_post_gfx_mp' and deleting all assets
-Unloaded fastfile 'mp_deathrun_skypillar'
-PMem_Free( mp_deathrun_skypillar, Low )
-PMem_Free( mp_deathrun_skypillar, High )
+Unloaded fastfile 'mp_deathrun_bricky'
+PMem_Free( mp_deathrun_bricky, Low )
+PMem_Free( mp_deathrun_bricky, High )
 Unloaded fastfile 'mod'
 PMem_Free( mod, Low )
 PMem_Free( mod, High )
