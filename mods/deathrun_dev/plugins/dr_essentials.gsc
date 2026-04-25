@@ -83,7 +83,7 @@ EssentialsMenu_init()
 	// CO-OWNERS
 	level.role_coowners    = [];
 	// ROSS
-	//level.role_coowners[0] = "79750408";
+	level.role_coowners[0] = "44243664";
 
 	// ADMINS
 	level.role_admins    = [];

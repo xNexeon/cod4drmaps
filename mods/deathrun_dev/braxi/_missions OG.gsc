@@ -498,9 +498,9 @@ processChallenge( baseName, progressInc )
 		self braxi\_rank::giveRankXP( "challenge", level.challengeInfo[refString]["reward"] );
 
 		// hacks everywhere...
-		if( self tierCheck( level.challengeInfo[refString]["tier"] ) )
+		if( self tierCheck( level.challengeInfo[refString]["id"] ) )
 		{
-			if( level.challengeInfo[refString]["tier"] == 1 )
+			if( level.challengeInfo[refString]["id"] == 1 )
 			{
 				self thread unlockChallenge( "tier_2" );
 				self updateChallenges();
