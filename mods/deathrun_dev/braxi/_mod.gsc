@@ -125,6 +125,7 @@ main()
 
 	level thread firstBlood();
 	level thread fastestTime();
+	level thread leaderboardUpdater();
 
 
 	visionSetNaked( level.mapName, 0 );
@@ -245,6 +246,7 @@ buildAbilityInfo()
 		level.abilityInfo[id]["shader"] = tableLookup( tableName, 0, idx, 4 );
 		level.abilityInfo[id]["name"] =  tableLookup( tableName, 0, idx, 5 );
 		level.abilityInfo[id]["desc"] = tableLookup( tableName, 0, idx, 6 );
+		level.abilityInfo[id]["rank"] = int(tableLookup( tableName, 0, idx, 7 ));
 		
 //		precacheString( level.abilityInfo[id]["desc"]  );		
 		precacheShader( level.abilityInfo[id]["shader"] );
@@ -655,8 +657,7 @@ afterFirstFrame()
 		self thread freeRunChoice();
 	}
 	
-	if( self getStat( 988 ) == 1 )
-		self setClientDvar( "cg_thirdperson", 1 );
+	// cg_thirdperson is always kept in first person (stat 988 thirdperson toggle removed)
 
 
 	// give special ability
@@ -998,7 +999,7 @@ endRound( reasonText, team )
 	players = getAllPlayers();
 	for( i = 0; i < players.size; i++ )
 	{
-		players[i] setClientDvars( "cg_thirdperson", 1, "r_blur", 2.0, "show_hud", "false" );
+		players[i] setClientDvars( "cg_thirdperson", 0, "r_blur", 2.0, "show_hud", "false" );
 	}
 
 	if( team == "jumpers" )
@@ -2289,4 +2290,93 @@ showAbility()
 	self.abilityHud.alpha = 0;
 	wait 0.2;
 	self.abilityHud destroy();
+}
+
+
+// ============================================================
+// leaderboardUpdater
+// Runs every 3 seconds.  Sorts all players by session score
+// (highest first) and pushes the top 5 names + scores to every
+// client via dvars so the ESC menu leaderboard can display them.
+//
+// Dvars written per slot (0-4):
+//   ui_lb_name0 .. ui_lb_name4   – player name (or "" if slot empty)
+//   ui_lb_score0 .. ui_lb_score4 – score as integer string (or "")
+// ============================================================
+leaderboardUpdater()
+{
+	// Initialise dvars to empty so the menu shows nothing
+	// until real data is available.
+	for ( s = 0; s < 5; s++ )
+	{
+		setDvar( "ui_lb_name"  + s, "" );
+		setDvar( "ui_lb_score" + s, "" );
+	}
+
+	for (;;)
+	{
+		wait 3;
+
+		players = braxi\_common::getAllPlayers();
+
+		// ---- insertion-sort players[] by pers["score"] descending ----
+		sorted    = [];
+		sortedScores = [];
+
+		for ( i = 0; i < players.size; i++ )
+		{
+			p = players[i];
+			sc = 0;
+			if ( isDefined( p.pers["score"] ) )
+				sc = p.pers["score"];
+
+			// find insert position
+			pos = sorted.size;
+			for ( j = 0; j < sorted.size; j++ )
+			{
+				if ( sc > sortedScores[j] )
+				{
+					pos = j;
+					break;
+				}
+			}
+
+			// shift everything after pos up by one
+			k = sorted.size;
+			while ( k > pos )
+			{
+				sorted[k]       = sorted[k-1];
+				sortedScores[k] = sortedScores[k-1];
+				k--;
+			}
+			sorted[pos]       = p;
+			sortedScores[pos] = sc;
+		}
+
+		// ---- push top-5 to every client ----
+		allPlayers = braxi\_common::getAllPlayers();
+
+		for ( slot = 0; slot < 5; slot++ )
+		{
+			if ( slot < sorted.size )
+			{
+				nm = sorted[slot].name;
+				sc = sortedScores[slot];
+
+				for ( c = 0; c < allPlayers.size; c++ )
+				{
+					allPlayers[c] setClientDvar( "ui_lb_name"  + slot, nm );
+					allPlayers[c] setClientDvar( "ui_lb_score" + slot, sc );
+				}
+			}
+			else
+			{
+				for ( c = 0; c < allPlayers.size; c++ )
+				{
+					allPlayers[c] setClientDvar( "ui_lb_name"  + slot, "" );
+					allPlayers[c] setClientDvar( "ui_lb_score" + slot, "" );
+				}
+			}
+		}
+	}
 }

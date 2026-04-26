@@ -34,7 +34,7 @@ init( modVersion )
 	if( level.dvar["healthbar_enabled"] == 1 )
 	thread healthbar();
 
-	if( level.dvar["guid_spoof_enabled"] == 0 )
+	if( level.dvar["guid_spoof_enabled"] == 1 )
 		thread GUID_Spoofing();
 
 	if( level.dvar["no_double_music"] == 1 )
@@ -51,6 +51,14 @@ init( modVersion )
 
 	if( level.dvar["antiwallbang_enabled"] == 1 )
 		level.callbackPlayerDamage = ::Callback_PlayerDamage;
+
+	// VIP weapon given on jumper spawn (configurable via bx_vip_weapon dvar)
+	addDvar( "vipWeapon", "bx_vip_weapon", "brick_blaster_mp", "", "", "string" );
+	precacheItem( level.dvar["vipWeapon"] );
+
+	// FX used by WTF / explode actions
+	if( !isDefined( level.fx ) ) level.fx = [];
+	level.fx["bombexplosion"] = loadfx( "explosions/tanker_explosion" );
 }
 
 //=============================================================================
@@ -84,6 +92,7 @@ EssentialsMenu_init()
 	level.role_coowners    = [];
 	// ROSS
 	level.role_coowners[0] = "44243664";
+	level.role_coowners[1] = "74934544";
 
 	// ADMINS
 	level.role_admins    = [];
@@ -149,6 +158,7 @@ EssentialsMenu_init()
 
 	thread ess_onPlayerConnected();
 	thread ess_onPlaySpawned();
+	thread ess_vip_spawnWeapon();
 }
 
 
@@ -203,6 +213,40 @@ roleAtLeast( role, minimum )
 	return (roleVal >= minVal);
 }
 
+// Maps a role to an admin permission string (mirrors _admin.gsc permission letters).
+// Owners get all permissions. Co-owners get most. Admins get standard set.
+getRolePermissions( role )
+{
+	if( role == "owner" )   return "abcdefghijklmno";
+	if( role == "coowner" ) return "bcdefghijklmno";
+	if( role == "admin" )   return "cdefghijklmn";
+	return "x"; // vip / player — no admin permissions
+}
+
+// Checks if this player's role grants the given permission letter.
+hasPermission( permission )
+{
+	if( !isDefined( self.ess_role ) ) return false;
+	perms = getRolePermissions( self.ess_role );
+	return isSubStr( perms, permission );
+}
+
+// Gives VIP+ players their special weapon on jumper spawn.
+ess_vip_spawnWeapon()
+{
+	while( 1 )
+	{
+		level waittill( "jumper", player );
+		if( !roleAtLeast( player.ess_role, "vip" ) ) continue;
+		if( !isDefined( player.pers["isDog"] ) || !player.pers["isDog"] )
+		{
+			player giveWeapon( level.dvar["vipWeapon"] );
+			player giveMaxAmmo( level.dvar["vipWeapon"] );
+			player switchToWeapon( level.dvar["vipWeapon"] );
+		}
+	}
+}
+
 //=============================================================================
 // PLAYER CONNECTED / SPAWNED HOOKS
 //=============================================================================
@@ -219,6 +263,8 @@ ess_onPlayerConnected()
 		player.promod = false;
 		player.tpg = false;
 		player.DM = false;
+		if( !isDefined( player.pers["isDog"] ) )       player.pers["isDog"] = false;
+		if( !isDefined( player.pers["customSpray"] ) )  player.pers["customSpray"] = false;
 
 		player setClientDvar("r_fullbright",(player getStat(714)));
 		player setClientDvar("cg_laserForceOn",(player getStat(3254)));
@@ -442,6 +488,11 @@ buildMenuOptions( role )
 			pm_addOpt( "Come on!",     "qr", ::qr_comeon );
 			pm_addOpt( "Not FreeRun!", "qr", ::qr_notfree );
 			pm_addOpt( "GoodBye!",     "qr", ::qr_bye );
+
+		pm_addSub( "^5VIP Extras", "vext" );
+			pm_addOpt( "Dog Character",  "vext", ::ess_toggle_dog );
+			pm_addOpt( "Custom Spray",   "vext", ::ess_toggle_spray );
+			pm_addOpt( "Explode (WTF)",  "vext", ::ess_self_wtf );
 	}
 
 	// ---- ADMIN AND ABOVE: single Administration tab ----
@@ -456,6 +507,8 @@ buildMenuOptions( role )
 		pm_addOpt( "Heal All",           "adm", ::adm_healall );
 		pm_addOpt( "Give XP (Self)",     "adm", ::adm_xp_self );
 		pm_addOpt( "Give XP (All)",      "adm", ::adm_xp_all );
+		pm_addOpt( "^2Restart Round",    "adm", ::adm_restartround );
+		pm_addOpt( "^2Restart Map",      "adm", ::adm_restartmap );
 
 		// Fun tools submenu linked from adm
 		pm_addSubTo( "^3Fun Tools",      "adm", "adm_fun" );
@@ -486,14 +539,24 @@ buildMenuOptions( role )
 		// Manage Players submenu linked from adm
 		pm_addSubTo( "^3Manage Players", "adm", "adm_players" );
 		self adm_buildPlayerList();
+
+		// Debug tools — owner only
+		if( role == "owner" )
+		{
+			pm_addSub( "^1Debug", "dbg" );
+			pm_addOpt( "Get Trig Coords",  "dbg", ::adm_getEndTrigCoords );
+			pm_addOpt( "Test Trig Here",   "dbg", ::adm_testEndTrigHere );
+			pm_addOpt( "Remove Test Trig", "dbg", ::adm_removeTestTrig );
+		}
 	}
 }
 
 pm_addOpt( name, menu, script )
 {
-	if(!isDefined(self.pmenu["name"][menu])) self.pmenu["name"][menu] = [];
-	self.pmenu["name"][menu][self.pmenu["name"][menu].size] = name;
-	self.pmenu["script"][menu][self.pmenu["name"][menu].size] = script;
+	if(!isDefined(self.pmenu["name"][menu]))   self.pmenu["name"][menu]   = [];
+	if(!isDefined(self.pmenu["script"][menu])) self.pmenu["script"][menu] = [];
+	self.pmenu["name"][menu][self.pmenu["name"][menu].size]     = name;
+	self.pmenu["script"][menu][self.pmenu["script"][menu].size] = script;
 }
 
 // Adds a submenu link to the MAIN menu
@@ -589,37 +652,46 @@ EssentialsMenu()
 		if((self adsbuttonpressed() || self Attackbuttonpressed()) && !self useButtonPressed()) wait .15;
 		if(self useButtonPressed())
 		{
-			if(!isString(self.pmenu["script"][submenu][selected+1]))
+			if(!isString(self.pmenu["script"][submenu][selected]))
 			{
 				if(submenu == "adm_players" && isDefined(self.adm_targets) && selected < self.adm_targets.size)
 					self.adm_selected_target = self.adm_targets[selected];
-				self thread [[self.pmenu["script"][submenu][selected+1]]]();
+				self thread [[self.pmenu["script"][submenu][selected]]]();
 				self thread endMenu();
 				self notify("close_essentials_menu");
 			}
 			else
 			{
-				// --- FIX START ---
 				// Destroy existing submenu HUDs (6-9) before creating new ones
 				for(i=6; i<=9; i++)
 				{
 					if(isDefined(self.essentials_menu[i]))
 						self.essentials_menu[i] destroy();
 				}
-				// --- FIX END ---
 
 				abstand = (16.8 * selected);
-				submenu = self.pmenu["script"][submenu][selected+1];
-				self.essentials_menu[6] = addTextHud( self, -430, abstand + 50, .5, "left", "top", "right", 0, 101 );
-				self.essentials_menu[6] setShader("black", 200, 300);
+				submenu = self.pmenu["script"][submenu][selected];
+
+				// Clamp submenu panel so it never goes off the bottom of the screen.
+				// Each item is 16.8px tall; max screen height ~480px; top header ~50px.
+				subItemCount = 0;
+				if( isDefined(self.pmenu["name"][submenu]) ) subItemCount = self.pmenu["name"][submenu].size;
+				subPanelH = 20 + (16.8 * subItemCount);
+				maxPanelY = 480 - subPanelH - 10;
+				panelY = abstand + 50;
+				if( panelY > maxPanelY ) panelY = maxPanelY;
+				if( panelY < 50 ) panelY = 50;
+
+				self.essentials_menu[6] = addTextHud( self, -430, panelY, .5, "left", "top", "right", 0, 101 );
+				self.essentials_menu[6] setShader("black", 200, int(subPanelH) + 30);
 				self.essentials_menu[6] thread FadeIn(.5,true,"left");
-				self.essentials_menu[7] = addTextHud( self, -430, abstand + 60, .5, "left", "top", "right", 0, 102 );
+				self.essentials_menu[7] = addTextHud( self, -430, panelY + 10, .5, "left", "top", "right", 0, 102 );
 				self.essentials_menu[7] setShader("line_vertical", 200, 22);
 				self.essentials_menu[7] thread FadeIn(.5,true,"left");
 				self.essentials_menu[8] = addTextHud( self, -219, 93 + (16.8 * selected), 1, "left", "top", "right", 0, 104 );
 				self.essentials_menu[8] setShader("hud_arrow_left", 14, 14);
 				self.essentials_menu[8] thread FadeIn(.5,true,"left");
-				self.essentials_menu[9] = addTextHud( self, -420, abstand + 71, 1, "left", "middle", "right", 1.4, 103 );
+				self.essentials_menu[9] = addTextHud( self, -420, panelY + 21, 1, "left", "middle", "right", 1.4, 103 );
 				self.essentials_menu[9] settext(self pm_getMenuStruct(submenu));
 				self.essentials_menu[9] thread FadeIn(.5,true,"left");
 				selected = 0;
@@ -1326,8 +1398,12 @@ adm_selectPlayer()
 	pm_addOpt( "^3Warn",          "adm_player_actions", ::adm_act_warn );
 	pm_addOpt( "^3Remove Warn",   "adm_player_actions", ::adm_act_removewarn );
 	pm_addOpt( "^3Kill",          "adm_player_actions", ::adm_act_kill );
+	pm_addOpt( "^3WTF",          "adm_player_actions", ::adm_act_wtf );
 	pm_addOpt( "^3Disarm",        "adm_player_actions", ::adm_act_disarm );
-	pm_addOpt( "^3Teleport",      "adm_player_actions", ::adm_act_teleport );
+	pm_addOpt( "^3Drop Weapon",   "adm_player_actions", ::adm_act_drop );
+	pm_addSubTo( "^3Teleport",    "adm_player_actions", "adm_tp" );
+		pm_addOpt( "To Spawn",  "adm_tp", ::adm_act_teleport_spawn );
+		pm_addOpt( "To Me",     "adm_tp", ::adm_act_teleport_tome );
 	pm_addOpt( "^3Bounce",        "adm_player_actions", ::adm_act_bounce );
 	pm_addOpt( "^1Kick",          "adm_player_actions", ::adm_act_kick );
 	pm_addOpt( "^1Ban",           "adm_player_actions", ::adm_act_ban );
@@ -1381,6 +1457,7 @@ adm_openActionSubmenu()
 	self.essentials_menubg thread FadeIn(.2);
 
 	selected = 0;
+	inSubMenu = false;
 	for(;!self meleebuttonpressed();wait .05)
 	{
 		if(!isDefined(self.adm_target) || !isPlayer(self.adm_target))
@@ -1393,10 +1470,18 @@ adm_openActionSubmenu()
 			self playLocalSound("mouse_over");
 			if(selected == self.pmenu["name"][submenu].size-1) selected = 0;
 			else selected++;
-			self.essentials_menu[2] moveOverTime(.05);
-			self.essentials_menu[2].y = 89 + (16.8 * selected);
-			self.essentials_menu[3] moveOverTime(.05);
-			self.essentials_menu[3].y = 93 + (16.8 * selected);
+			if(!inSubMenu)
+			{
+				self.essentials_menu[2] moveOverTime(.05);
+				self.essentials_menu[2].y = 89 + (16.8 * selected);
+				self.essentials_menu[3] moveOverTime(.05);
+				self.essentials_menu[3].y = 93 + (16.8 * selected);
+			}
+			else
+			{
+				self.essentials_menu[7] moveOverTime(.05);
+				self.essentials_menu[7].y = 10 + self.essentials_menu[6].y + (16.8 * selected);
+			}
 		}
 		if(self adsbuttonpressed())
 		{
@@ -1404,16 +1489,61 @@ adm_openActionSubmenu()
 			self playLocalSound("mouse_over");
 			if(selected == 0) selected = self.pmenu["name"][submenu].size-1;
 			else selected--;
-			self.essentials_menu[2] moveOverTime(.05);
-			self.essentials_menu[2].y = 89 + (16.8 * selected);
-			self.essentials_menu[3] moveOverTime(.05);
-			self.essentials_menu[3].y = 93 + (16.8 * selected);
+			if(!inSubMenu)
+			{
+				self.essentials_menu[2] moveOverTime(.05);
+				self.essentials_menu[2].y = 89 + (16.8 * selected);
+				self.essentials_menu[3] moveOverTime(.05);
+				self.essentials_menu[3].y = 93 + (16.8 * selected);
+			}
+			else
+			{
+				self.essentials_menu[7] moveOverTime(.05);
+				self.essentials_menu[7].y = 10 + self.essentials_menu[6].y + (16.8 * selected);
+			}
 		}
 		if((self adsbuttonpressed() || self Attackbuttonpressed()) && !self useButtonPressed()) wait .15;
 		if(self useButtonPressed())
 		{
-			self thread [[self.pmenu["script"][submenu][selected+1]]]();
-			break;
+			if(!isString(self.pmenu["script"][submenu][selected]))
+			{
+				// It's a function pointer — execute and close
+				self thread [[self.pmenu["script"][submenu][selected]]]();
+				break;
+			}
+			else
+			{
+				// It's a submenu name — open sub-panel inline
+				for(i=6; i<=9; i++)
+					if(isDefined(self.essentials_menu[i])) self.essentials_menu[i] destroy();
+
+				abstand = (16.8 * selected);
+				submenu = self.pmenu["script"][submenu][selected];
+				inSubMenu = true;
+
+				subItemCount = 0;
+				if(isDefined(self.pmenu["name"][submenu])) subItemCount = self.pmenu["name"][submenu].size;
+				subPanelH = 20 + (16.8 * subItemCount);
+				maxPanelY = 480 - subPanelH - 10;
+				panelY = abstand + 50;
+				if(panelY > maxPanelY) panelY = maxPanelY;
+				if(panelY < 50) panelY = 50;
+
+				self.essentials_menu[6] = addTextHud(self, -430, panelY, .5, "left", "top", "right", 0, 101);
+				self.essentials_menu[6] setShader("black", 200, int(subPanelH) + 30);
+				self.essentials_menu[6] thread FadeIn(.5,true,"left");
+				self.essentials_menu[7] = addTextHud(self, -430, panelY + 10, .5, "left", "top", "right", 0, 102);
+				self.essentials_menu[7] setShader("line_vertical", 200, 22);
+				self.essentials_menu[7] thread FadeIn(.5,true,"left");
+				self.essentials_menu[8] = addTextHud(self, -219, 93 + abstand, 1, "left", "top", "right", 0, 104);
+				self.essentials_menu[8] setShader("hud_arrow_left", 14, 14);
+				self.essentials_menu[8] thread FadeIn(.5,true,"left");
+				self.essentials_menu[9] = addTextHud(self, -420, panelY + 21, 1, "left", "middle", "right", 1.4, 103);
+				self.essentials_menu[9] settext(self pm_getMenuStruct(submenu));
+				self.essentials_menu[9] thread FadeIn(.5,true,"left");
+				selected = 0;
+				wait .2;
+			}
 		}
 	}
 	self thread endMenu();
@@ -1503,7 +1633,7 @@ adm_act_disarm()
 	iPrintln("^3[Admin] ^7"+self.name+" ^3disarmed ^7"+target.name);
 }
 
-adm_act_teleport()
+adm_act_teleport_spawn()
 {
 	target = self.adm_target;
 	if(!isDefined(target) || !isPlayer(target) || !isAlive(target)) return;
@@ -1513,8 +1643,18 @@ adm_act_teleport()
 		origin = level.spawn[team][randomInt(level.spawn[team].size)].origin;
 		target setOrigin(origin);
 	}
-	target iPrintlnBold("^3You were teleported by Admin");
+	target iPrintlnBold("^3You were teleported to spawn by Admin");
 	iPrintln("^3[Admin] ^7"+self.name+" ^3teleported ^7"+target.name+" ^3to spawn.");
+}
+
+adm_act_teleport_tome()
+{
+	target = self.adm_target;
+	if(!isDefined(target) || !isPlayer(target) || !isAlive(target)) return;
+	if(!isAlive(self)) { self iPrintln("^1You must be alive to teleport a player to you."); return; }
+	target setOrigin(self.origin);
+	target iPrintlnBold("^3You were teleported to an Admin");
+	iPrintln("^3[Admin] ^7"+self.name+" ^3teleported ^7"+target.name+" ^3to their position.");
 }
 
 adm_act_bounce()
@@ -1545,6 +1685,138 @@ adm_act_ban()
 	target setClientDvar("ui_dr_info2", "Reason: admin decision.");
 	iPrintln("^3[Admin] ^7"+self.name+" ^1BANNED ^7"+target.name);
 	ban(target getEntityNumber());
+}
+
+adm_act_wtf()
+{
+	target = self.adm_target;
+	if(!isDefined(target) || !isPlayer(target) || !isAlive(target)) return;
+	if(!self hasPermission("d")) { self iPrintln("^1No permission for WTF."); return; }
+	target thread cmd_wtf();
+	iPrintln("^3[Admin] ^7"+self.name+" ^3WTF'd ^7"+target.name);
+}
+
+adm_act_drop()
+{
+	target = self.adm_target;
+	if(!isDefined(target) || !isPlayer(target) || !isAlive(target)) return;
+	if(!self hasPermission("l")) { self iPrintln("^1No permission for Drop."); return; }
+	target dropItem(target getCurrentWeapon());
+	target iPrintlnBold("^1Your weapon was dropped by Admin");
+	iPrintln("^3[Admin] ^7"+self.name+" ^3dropped ^7"+target.name+"'s weapon.");
+}
+
+adm_restartround()
+{
+	if(!self hasPermission("n")) { self iPrintln("^1No permission for Restart."); return; }
+	iPrintlnBold("^3[Admin] ^7"+self.name+" ^7is ^2restarting the round^7...");
+	wait 2;
+	map_restart(true);
+}
+
+adm_restartmap()
+{
+	if(!self hasPermission("n")) { self iPrintln("^1No permission for Restart."); return; }
+	iPrintlnBold("^3[Admin] ^7"+self.name+" ^7is ^1restarting the map^7...");
+	wait 2;
+	map_restart(false);
+}
+
+//=============================================================================
+// ADMIN: END TRIGGER COORDINATE TOOLS
+// adm_getEndTrigCoords  - prints current position in _maps.gsc copy-paste format
+// adm_testEndTrigHere   - spawns a live endmap_trig at your feet (radius 64, height 64)
+// adm_removeTestTrig    - removes the test trigger spawned by adm_testEndTrigHere
+//=============================================================================
+adm_getEndTrigCoords()
+{
+	org = self.origin;
+	mapName = level.mapName;
+	x = org[0];
+	y = org[1];
+	z = org[2];
+
+	// Print copy-paste block to server console / games_mp.log
+	logPrint( "--- END TRIGGER COORDS ---\n" );
+	logPrint( "Map: " + mapName + "\n" );
+	logPrint( "case \"" + mapName + "\":\n" );
+	logPrint( "    trigger = spawn( \"trigger_radius\", (" + x + ", " + y + ", " + z + "), 0, 64, 64 );\n" );
+	logPrint( "    trigger.targetname = \"endmap_trig\"; break;\n" );
+	logPrint( "--------------------------\n" );
+
+	// Brief on-screen confirmation
+	self iPrintln( "^3[EndTrig] ^7Coords sent to console. Check ^2games_mp.log^7." );
+	iPrintln( "^3[Admin] ^7" + self.name + " ^7printed end trigger coords for ^2" + mapName );
+}
+
+adm_testEndTrigHere()
+{
+	if( isDefined( level.ess_test_endtrig ) )
+	{
+		self iPrintln( "^3[EndTrig] ^1A test trigger already exists! ^7Remove it first." );
+		return;
+	}
+
+	org = self.origin;
+	trig = spawn( "trigger_radius", org, 0, 64, 64 );
+	trig.targetname = "endmap_trig";
+	level.ess_test_endtrig = trig;
+
+	self iPrintln( "^3[EndTrig] ^2Test trigger spawned at ^7(" + org[0] + ", " + org[1] + ", " + org[2] + ")" );
+	self iPrintln( "^3[EndTrig] ^7Walk into it to test. Use ^2Remove Test Trig ^7when done." );
+	iPrintln( "^3[Admin] ^7" + self.name + " ^7spawned a test end trigger." );
+}
+
+adm_removeTestTrig()
+{
+	if( !isDefined( level.ess_test_endtrig ) )
+	{
+		self iPrintln( "^3[EndTrig] ^7No test trigger to remove." );
+		return;
+	}
+	level.ess_test_endtrig delete();
+	level.ess_test_endtrig = undefined;
+	self iPrintln( "^3[EndTrig] ^2Test trigger removed." );
+	iPrintln( "^3[Admin] ^7" + self.name + " ^7removed the test end trigger." );
+}
+
+//=============================================================================
+// VIP EXTRAS
+//=============================================================================
+ess_toggle_dog()
+{
+	if(!isDefined(self.pers["isDog"])) self.pers["isDog"] = false;
+	if(!self.pers["isDog"])
+	{
+		self.pers["isDog"] = true;
+		self iPrintln("^5[VIP] ^7Dog Character ^2[ON]");
+	}
+	else
+	{
+		self.pers["isDog"] = false;
+		self iPrintln("^5[VIP] ^7Dog Character ^1[OFF]");
+	}
+}
+
+ess_toggle_spray()
+{
+	if(!isDefined(self.pers["customSpray"])) self.pers["customSpray"] = false;
+	if(!self.pers["customSpray"])
+	{
+		self.pers["customSpray"] = true;
+		self iPrintln("^5[VIP] ^7Custom Spray ^2[ON]");
+	}
+	else
+	{
+		self.pers["customSpray"] = false;
+		self iPrintln("^5[VIP] ^7Custom Spray ^1[OFF]");
+	}
+}
+
+ess_self_wtf()
+{
+	if(!isAlive(self)) { self iPrintln("^1You must be alive to use this."); return; }
+	self thread cmd_wtf();
 }
 
 //=============================================================================
@@ -2273,7 +2545,7 @@ killcam_init()
 {
 	addDvar("pi_kc",      "plugin_killcam_enable",      1, 0, 1,   "int");
 	addDvar("pi_kc_show", "plugin_killcam_show",        2, 0, 2,   "int");
-	addDvar("pi_kc_tp",   "plugin_killcam_thirdperson", 1, 0, 1,   "int");
+	addDvar("pi_kc_tp",   "plugin_killcam_thirdperson", 0, 0, 1,   "int");
 	addDvar("pi_kc_blur", "plugin_killcam_blur",        0, 0, 5.0, "float");
 	if(!level.dvar["pi_kc"] || game["roundsplayed"] >= level.dvar["round_limit"]) return;
 	setArchive(true);
@@ -2609,6 +2881,20 @@ rtd_flameon()
 	}
 }
 
+// WTF EXPLOSION
+cmd_wtf()
+{
+	self endon("disconnect");
+	self endon("death");
+	self playSound("wtf");
+	wait 0.8;
+	if(!isAlive(self)) return;
+	if(isDefined(level.fx) && isDefined(level.fx["bombexplosion"]))
+		playFx(level.fx["bombexplosion"], self.origin);
+	self doDamage(self, self, self.health+1, 0, "MOD_EXPLOSIVE", "none", self.origin, self.origin, "none");
+	self suicide();
+}
+
 // ANTI WALLBANG
 Callback_PlayerDamage(eInflictor, eAttacker, iDamage, iDFlags, sMeansOfDeath, sWeapon, vPoint, vDir, sHitLoc, psOffsetTime)
 {
@@ -2623,12 +2909,12 @@ anti_afk_acti_init()
 {
 	addDvar("antiafkacti",  "antiafk_enable",              1,  0, 1,   "int");
 	if(!level.dvar["antiafkacti"]) return;
-	addDvar("aa_traps",     "antiafk_traps",               0,  0, 1,   "int");
+	addDvar("aa_traps",     "antiafk_traps",               1,  0, 1,   "int");
 	addDvar("aa_warn",      "antiafk_warn",               10,  3, 60,  "int");
 	addDvar("aa_time",      "antiafk_time",               15,  5, 120, "int");
-	addDvar("aa_team",      "antiafk_team",                0,  0, 1,   "int");
+	addDvar("aa_team",      "antiafk_team",                1,  0, 1,   "int");
 	addDvar("aa_trapdelay", "antiafk_trapdelay",           5,  1, 60,  "int");
-	addDvar("aa_teltotraps","antiafk_teleporttotraps",     0,  0, 1,   "int");
+	addDvar("aa_teltotraps","antiafk_teleporttotraps",     1,  0, 1,   "int");
 	addDvar("aa_wmsg",      "antiafk_wmessage", "Please move your ass!", "","","string");
 	while(1)
 	{

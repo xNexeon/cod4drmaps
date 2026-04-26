@@ -593,6 +593,7 @@ updateRankAnnounceHUD()
 	self thread unlockSpray();
 	self thread unlockCharacter();
 	self thread unlockItem();
+	self thread unlockAbilityOnRankUp();
 
 /*	
 
@@ -731,10 +732,10 @@ isItemUnlocked( num )
 
 isAbilityUnlocked( num )
 {
-	if( num > level.numAbilities || num <= -1)
+	if( num >= level.abilityInfo.size || num <= -1 )
 		return false;
 
-	if( self getStat( level.abilityInfo[num]["stat"] ) == 1 )
+	if( self.pers["rank"] >= level.abilityInfo[num]["rank"] )
 		return true;
 
 	return false;
@@ -752,6 +753,23 @@ unlockAbility( name )
 			notifyData.icon = level.abilityInfo[i]["shader"];
 			notifyData.duration = 2.9;
 	
+			self thread unlockMessage( notifyData );
+			break;
+		}
+	}
+}
+
+unlockAbilityOnRankUp()
+{
+	for( i = 0; i < level.abilityInfo.size; i++ )
+	{
+		if( self.pers["rank"] == level.abilityInfo[i]["rank"] && level.abilityInfo[i]["rank"] > 0 )
+		{
+			notifyData = spawnStruct();
+			notifyData.title = "New Ability!";
+			notifyData.description = level.abilityInfo[i]["name"];
+			notifyData.icon = level.abilityInfo[i]["shader"];
+			notifyData.duration = 2.9;
 			self thread unlockMessage( notifyData );
 			break;
 		}

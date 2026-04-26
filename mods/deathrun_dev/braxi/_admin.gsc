@@ -694,6 +694,22 @@ adminCommands( admin, pickingType )
 			iPrintln( "^3[admin]:^7 " + player.name + " ^7respawned." );
 		}
 		break;
+
+	case "resetrank":
+		player = getPlayer( arg1, pickingType );
+		if( isDefined( player ) )
+		{
+			player braxi\_rank::resetEverything();
+			player maps\mp\gametypes\_persistence::statSet( "rank", 0 );
+			player maps\mp\gametypes\_persistence::statSet( "rankxp", 0 );
+			player maps\mp\gametypes\_persistence::statSet( "minxp", 0 );
+			player maps\mp\gametypes\_persistence::statSet( "maxxp", 0 );
+			player.pers["rank"] = 0;
+			player.pers["rankxp"] = 0;
+			player iPrintlnBold( "^2Your rank has been reset to 0." );
+			iPrintln( "^3[admin]:^7 " + player.name + " ^7rank was reset." );
+		}
+		break;
 	}
 }
 

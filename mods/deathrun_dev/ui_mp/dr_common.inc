@@ -371,7 +371,7 @@ itemDef \
 #define DR_ABILITY( y, itemID ) \
 itemDef \
 { \
-	visible			when( rank < tableLookup(ABILITY_TABLE, 0, itemID, 2) && itemID != 1 ) /*locked*/ \
+	visible			when( rank < tableLookup(ABILITY_TABLE, 0, itemID, 7) && itemID != 1 ) /*locked*/ \
 	rect			90 y 220 35 DR_BUTTON_ALIGN \
 	style			WINDOW_STYLE_FILLED \
 	border			1 \
@@ -381,7 +381,7 @@ itemDef \
 } \
 itemDef \
 { \
-	visible			when( stat(tableLookup(ABILITY_TABLE, 0, itemID, 2)) == 1 || itemID == 1 ) /*unlocked*/ \
+	visible			when( rank >= tableLookup(ABILITY_TABLE, 0, itemID, 7) || itemID == 1 ) /*unlocked*/ \
 	rect			90 y 220 35 DR_BUTTON_ALIGN \
 	style			WINDOW_STYLE_FILLED \
 	border			1 \
@@ -394,7 +394,7 @@ itemDef \
 	rect			95 (y+1) 55 35 DR_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	exp				material( tablelookup(ABILITY_TABLE, 0, itemID, 4) ) \
-	visible			when( stat(tableLookup(ABILITY_TABLE, 0, itemID, 2)) == 1 || itemID == 1 ) /*unlocked*/ \
+	visible			when( rank >= tableLookup(ABILITY_TABLE, 0, itemID, 7) || itemID == 1 ) /*unlocked*/ \
 	forecolor		1 1 1 1 \
 	decoration \
 } \
@@ -403,7 +403,7 @@ itemDef \
 	rect			95 (y+1) 55 35 DR_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	exp				material( tablelookup(ABILITY_TABLE, 0, itemID, 4) ) \
-	visible			when( stat(tableLookup(ABILITY_TABLE, 0, itemID, 2)) != 1 && itemID != 1 ) /*locked*/ \
+	visible			when( rank < tableLookup(ABILITY_TABLE, 0, itemID, 7) && itemID != 1 ) /*locked*/ \
 	forecolor		0.8 0.8 0.8 0.6 \
 	decoration \
 } \
@@ -420,7 +420,7 @@ itemDef \
 	textscale	0.32 \
 	textalignx	70 \
 	textaligny	22 \
-	visible		when( stat(tableLookup(ABILITY_TABLE, 0, itemID, 2)) == 1 || itemID == 1 ) /*unlocked*/ \
+	visible		when( rank >= tableLookup(ABILITY_TABLE, 0, itemID, 7) || itemID == 1 ) /*unlocked*/ \
 	mouseEnter \
 	{ \
 		play "mouse_over"; \
@@ -445,7 +445,7 @@ itemDef \
 	textscale	0.32 \
 	textalignx	70 \
 	textaligny	22 \
-	visible		when( stat(tableLookup(ABILITY_TABLE, 0, itemID, 2)) != 1 && itemID != 1 ) /*locked*/ \
+	visible		when( rank < tableLookup(ABILITY_TABLE, 0, itemID, 7) && itemID != 1 ) /*locked*/ \
 } \
 itemDef \
 { \
@@ -463,7 +463,7 @@ itemDef \
 } \
 itemDef \
 { \
-	visible		when( rank < tableLookup(ABILITY_TABLE, 0, itemID, 2) && itemID != 1 ) /*locked*/ \
+	visible		when( rank < tableLookup(ABILITY_TABLE, 0, itemID, 7) && itemID != 1 ) /*locked*/ \
 	origin		308 y \
 	textscale	0.22 \
 	textaligny	11 \
@@ -476,7 +476,7 @@ itemDef \
 } \
 itemDef \
 { \
-	visible		when( stat(tableLookup(ABILITY_TABLE, 0, itemID, 2)) == 1 || itemID == 1 ) /*unlocked*/ \
+	visible		when( rank >= tableLookup(ABILITY_TABLE, 0, itemID, 7) || itemID == 1 ) /*unlocked*/ \
 	origin		308 y \
 	textscale	0.22 \
 	textaligny	11 \
